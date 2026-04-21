@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>294/6093/ODS</signature>
+    <parameters>
+      <p id="1">294/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-04-21 09:50:50.0261</p>
+      <p id="5">2026-02-17 14:33:39.0125</p>
+      <p id="10">970000.0000</p>
+      <p id="13">5518.2600</p>
+      <p id="20">WOLNO STOJĄCY</p>
+      <p id="23">ODDZIELNA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39">KAN. MIEJSKA</p>
+      <p id="41">GRUNTOWA</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">WĄGROWIECKI</p>
+      <p id="47">WĄGROWIEC</p>
+      <p id="48">OCHODZA</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="53">MIESZANE</p>
+      <p id="54">PŁASKIE</p>
+      <p id="55">PROSTOKĄT</p>
+      <p id="58">139.3100</p>
+      <p id="59">ALARM, DOMOFON</p>
+      <p id="60">POLSKA</p>
+      <p id="61">1014.0000</p>
+      <p id="63">0.0000</p>
+      <p id="66">WŁASNOŚĆ</p>
+      <p id="71">2010</p>
+      <p id="72">WYSOKI STANDARD</p>
+      <p id="74">CERAMIKA</p>
+      <p id="77">DACHÓWKA CERAMICZNA</p>
+      <p id="78">PCV</p>
+      <p id="79">4.0000</p>
+      <p id="83">1.0000</p>
+      <p id="84">1.0000</p>
+      <p id="87">BOJLER</p>
+      <p id="89">C.O. WŁASNE,EKOLOGICZNE</p>
+      <p id="93">229017.0000</p>
+      <p id="94">269369.0000</p>
+      <p id="121">WŁASNOŚĆ</p>
+      <p id="128">175.7800</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157">ELEKTRYCZNA, WODNA</p>
+      <p id="161">GARAŻ</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Cisza, przestrzeń i szybki dojazd dom k. Wągrowca</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>110828291.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110828289.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811832.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811831.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811830.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110828088.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811813.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811814.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811817.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110830454.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811812.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811820.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811824.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811825.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811819.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811823.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811822.jpg</unique>
+        <status>0</status>
+        <weight>17</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110811828.jpg</unique>
+        <status>0</status>
+        <weight>18</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110830310.jpg</unique>
+        <status>0</status>
+        <weight>19</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112033363.jpg</unique>
+        <status>0</status>
+        <weight>20</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>W naszej ofercie kolejny piękny dom, wyróżniający się rewelacyjnym projektem architektonicznym.&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania.&lt;br/&gt;Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;&lt;br/&gt;LOKALIZACJA:&lt;br/&gt;Miasto / dzielnica: Ochodza, sypialnia Wągrowca - dojazd miasta zajmuje ok. 3 minuty.&lt;br/&gt;Okolica: kameralne osiedle, zabudowa jednorodzinna, bardzo spokojna dzielnica &lt;br/&gt;Dojazd: do samej posesji drogą polną (ok. 100 m), wcześniej drogą asfaltową&lt;br/&gt;&lt;br/&gt;SZCZEGÓŁY NIERUCHOMOŚCI&lt;br/&gt;Powierzchnia całkowita domu: 175,78 m²&lt;br/&gt;Powierzchnia użytkowa domu: 139,31 m²&lt;br/&gt;Rodzaj budynku: wolnostojący&lt;br/&gt;Rok budowy: 2010, sukcesywnie remontowany&lt;br/&gt;Stan nieruchomości: bardzo dobry, nie wymaga praktycznie żadnych nakładów&lt;br/&gt;Ogrzewanie: piec na eko-groszek (ogrzewanie podłogowe, w pokojach grzejniki wodne), dodatkowo kominek w salonie z płaszczem wodnym&lt;br/&gt;Koszty utrzymania: prąd, woda/ścieki, eko-groszek (ok. 4 tony na sezon) oraz 1 raz w roku podatek od nieruchomości&lt;br/&gt;&lt;br/&gt;UKŁAD I WYPOSAŻENIE&lt;br/&gt;PARTER: wiatrołap, holl, skrytka, kuchnia wraz z jadalnią, duży salon z wyjściem na taras, łazienka, toaleta, 3 pokoje, pomieszczenie techniczne, oraz garaż&lt;br/&gt;Wyposażenie: w pełni umeblowana kuchnia także w sprzęt, pozostałe umeblowanie do uzgodnienia&lt;br/&gt;&lt;br/&gt;DODATKOWE INFORMACJE&lt;br/&gt;Forma własności: pełna własność z księgą wieczystą&lt;br/&gt;Piwnica: nie&lt;br/&gt;Garaż: tak - w bryle budynku&lt;br/&gt;Miejsce parkingowe: na posesji, także przed domem&lt;br/&gt;Nieruchomość ogrodzona z bramą wjazdową&lt;br/&gt;Rozprowadzona instalacja alarmowa&lt;br/&gt;Dostępne od: terminy do uzgodnienia&lt;br/&gt;&lt;br/&gt;ATUTY NIERUCHOMOŚCI&lt;br/&gt;Bardzo korzystny projekt domu, pomieszczenia przestrzenne, układ funkcjonalny&lt;br/&gt;Położenie bardzo blisko miasta, ale w zacisznej i spokojnej okolicy - niekłopotliwe sąsiedztwo&lt;br/&gt;Świetna komunikacja z miastem&lt;br/&gt;Wnętrze domu przytulne, harmonijne praktycznie nie wymaga nakładów&lt;br/&gt;Z salonu wyjście na przyjemny taras oraz zadbany ogród&lt;br/&gt;&lt;br/&gt;Uprzejmie prosimy o uszanowanie prywatności właściciela - zapraszamy do kontaktu z biurem.&lt;br/&gt;&lt;br/&gt;KONTAKT&lt;br/&gt;Imię i nazwisko: Marta Janusz, licencja PFRN nr 28634&lt;br/&gt;Telefon: 5 1 9 1 1 0 0 7 8&lt;br/&gt;Imię i nazwisko: Danuta Majchrzak, licencja PFRN nr 577&lt;br/&gt;Telefon: 5 0 1 7 6 9 1 6 6&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom
+
+</description>
+  </offer>
+  <offer>
+    <signature>414/6093/OMS</signature>
+    <parameters>
+      <p id="1">414/6093/OMS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-04-21 09:41:16.0574</p>
+      <p id="5">2026-04-16 13:43:10.0543</p>
+      <p id="10">265000.0000</p>
+      <p id="13">4416.6700</p>
+      <p id="19">3-POKOJOWE</p>
+      <p id="23">ODDZIELNA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">MIESZKANIE</p>
+      <p id="38"></p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">WĄGROWIECKI</p>
+      <p id="47">WĄGROWIEC</p>
+      <p id="48">WĄGROWIEC</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="62">1.0000</p>
+      <p id="63">1.0000</p>
+      <p id="70">NISKI BLOK</p>
+      <p id="78">PCV</p>
+      <p id="79">3.0000</p>
+      <p id="82"></p>
+      <p id="86"></p>
+      <p id="87">BOJLER</p>
+      <p id="89">C.O. Z SIECI MIEJSKIEJ</p>
+      <p id="93">62566.5000</p>
+      <p id="94">73590.5000</p>
+      <p id="121">WŁASNOŚĆ</p>
+      <p id="128">60.0000</p>
+      <p id="141">PLN</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Janowiecka</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">3 pokoje na niskim piętrze w centrum Wągrowca</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>111966421.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>111966273.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>111965290.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>111966276.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>111965291.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>111966291.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>111966287.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>111964745.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>111966279.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>111966284.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>111964746.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Szukasz mieszkania, które połączysz z własną wizją idealnego wnętrza? Odkryj przestrzeń, która daje oddech i pełną infrastrukturę miasta na wyciągnięcie ręki. Zapraszamy do zapoznania się z ofertą sprzedaży ustawnego, 3-pokojowego mieszkania zlokalizowanego na najbardziej pożądanym I piętrze niskiego bloku przy ul. Janowieckiej w Wągrowcu.&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania.&lt;br/&gt;Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;&lt;br/&gt;LOKALIZACJA:&lt;br/&gt;Miasto / dzielnica: Wągrowiec&lt;br/&gt;Ulica: Janowiecka&lt;br/&gt;Okolica: ścisłe centrum miasta&lt;br/&gt;&lt;br/&gt;SZCZEGÓŁY NIERUCHOMOŚCI&lt;br/&gt;Powierzchnia mieszkania:  60 m²&lt;br/&gt;Liczba pokoi: 3&lt;br/&gt;Piętro: I piętro&lt;br/&gt;Rodzaj budynku: blok&lt;br/&gt;Rok budowy: 1970&lt;br/&gt;Stan mieszkania: idealna baza do stworzenia wymarzonego wnętrza, lokal do własnej aranżacji – to „czysta karta”, która pozwala uniknąć kosztów skuwania cudzych wizji i stworzyć nowoczesne wnętrze od podstaw&lt;br/&gt;Ogrzewanie: centralne, blok ogrzewany własną kotłownią - stabilność i komfort&lt;br/&gt;Ciepła woda: bojler elektryczny&lt;br/&gt;Opłata do wspólnoty: ok. 700 zł/m-c (dla 1 zamieszkałej osoby), w tym min. ogrzewanie, zimna woda, oraz wywóz nieczystości.&lt;br/&gt;Koszty dodatkowe: prąd i gaz&lt;br/&gt;&lt;br/&gt;UKŁAD I WYPOSAŻENIE&lt;br/&gt;Duży pokój wychodzący na słoneczną południową stronę&lt;br/&gt;Kuchnia&lt;br/&gt;Dwie niezależne sypialnie&lt;br/&gt;Łazienka z wanną (z oknem)&lt;br/&gt;Toaleta&lt;br/&gt;Przedpokój&lt;br/&gt;Mieszkanie częściowo umeblowane, w cenie umeblowanie kuchni, reszta do uzgodnienia.&lt;br/&gt;&lt;br/&gt;ATUTY NIERUCHOMOŚCI&lt;br/&gt;Funkcjonalny układ, trzy niezależne pokoje, jasna kuchnia oraz rzadko spotykana łazienka z oknem to układ, który idealnie sprawdzi się dla rodziny lub jako pewna inwestycja pod wynajem.&lt;br/&gt;Świetna lokalizacja — wszędzie blisko, centrum miasta, bardzo blisko szkoła i przedszkole&lt;br/&gt;Lokal niezamieszkały, wolny do dyspozycji kupującego od zaraz - klucze przekazujemy zaraz po transakcji&lt;br/&gt;Pierwsze piętro to złoty środek – wygodne dla osób starszych, rodzin z dziećmi oraz osób o ograniczonej mobilności&lt;br/&gt;&lt;br/&gt;DODATKOWE INFORMACJE&lt;br/&gt;Piwnica / komórka lokatorska: tak o pow. 16 m² - idealna na rowery, sprzęt sezonowy czy nawet domowy warsztat.&lt;br/&gt;Balkon: tak - na południową ekspozycję&lt;br/&gt;Miejsce parkingowe: tak - wspólny teren przy bloku&lt;br/&gt;Forma własności: pełna własność z księgą wieczystą, bez obciążeń&lt;br/&gt;Dostępne od: natychmiast&lt;br/&gt;&lt;br/&gt;KONTAKT&lt;br/&gt;Imię i nazwisko: Marta Janusz, licencja PFRN nr 28634&lt;br/&gt;Telefon: 519 110 078&lt;br/&gt;Imię i nazwisko: Danuta Majchrzak, licencja PFRN nr 577&lt;br/&gt;Telefon: 501 769 166&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom&lt;br/&gt;&lt;br/&gt;
+
+</description>
+  </offer>
+</PACKAGE>
