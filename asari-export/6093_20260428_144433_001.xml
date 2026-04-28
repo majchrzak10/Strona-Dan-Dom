@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>418/6093/OMS</signature>
+    <parameters>
+      <p id="1">418/6093/OMS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-04-28 13:51:26.0617</p>
+      <p id="5">2026-04-28 13:30:59.0074</p>
+      <p id="10">320000.0000</p>
+      <p id="13">6855.1800</p>
+      <p id="19">3-POKOJOWE</p>
+      <p id="23">ANEKS KUCHENNY</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">MIESZKANIE</p>
+      <p id="38"></p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">OBORNICKI</p>
+      <p id="47">ROGOŹNO</p>
+      <p id="48">ROGOŹNO</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52">LAS, JEZIORO</p>
+      <p id="59">DOMOFON</p>
+      <p id="60">POLSKA</p>
+      <p id="62">2.0000</p>
+      <p id="63">2.0000</p>
+      <p id="70">NISKI BLOK</p>
+      <p id="71">2025</p>
+      <p id="72">DO WYKOŃCZENIA</p>
+      <p id="78">PCV, Z ROLETAMI</p>
+      <p id="79">3.0000</p>
+      <p id="81">NIE</p>
+      <p id="82">STAN.PARKINGOWE, SCHOWEK</p>
+      <p id="83">1.0000</p>
+      <p id="86"></p>
+      <p id="87">PIEC GAZOWY</p>
+      <p id="89">C.O. GAZOWE,C.O. WŁASNE</p>
+      <p id="93">75392.0000</p>
+      <p id="94">88576.0000</p>
+      <p id="120">BALKON</p>
+      <p id="128">46.6800</p>
+      <p id="141">PLN</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">PIERWOTNY</p>
+      <p id="300">Strzelecka</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Rogoźno, ul. Strzelecka- ostatnie mieszkanie!!!</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>112200222.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112200219.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112199723.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112200216.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112200307.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112200304.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112200305.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112200266.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112200267.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112199728.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112199720.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112199722.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112199725.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112199726.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112199729.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112199730.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Przedstawiamy na sprzedaż ostanie 3-pokojowe mieszkanie w kompleksie nowych, deweloperskich mieszkań- Leśne Zacisze!  &lt;br/&gt; &lt;br/&gt;Nieruchomość położona przy ulicy Strzeleckiej w Rogoźnie i stanowi nowoczesne osiedle w wyśmienitej lokalizacji; przy lesie, sto metrów od jeziora.&lt;br/&gt;&lt;br/&gt;Oferta sprzedaży obejmuje mieszkanie 3 pokojowe o powierzchni 46,68 m2. Lokal usytuowany jest na  II piętrze z balkonem. Ogrzewanie- dwufunkcyjny piec gazowym, osobnym dla każdego lokalu.&lt;br/&gt;&lt;br/&gt;Lokal oferowany przez dewelopera wykonany jest w standardzie:&lt;br/&gt;  &lt;br/&gt; 1.Instalacje elektryczne:&lt;br/&gt; - rozprowadzone przewody podtynkowe zakończone gniazdkami i włącznikami (punkty oświetleniowe i energetyczne)&lt;br/&gt; - domofon,&lt;br/&gt; - dla telefonii i TV (naziemna + światłowód)- bez przyłączenia.&lt;br/&gt;  &lt;br/&gt; 2. Instalacje sanitarne:&lt;br/&gt; - piony i podejścia kanalizacyjne,&lt;br/&gt; - podejścia wody bez armatury,&lt;br/&gt; - licznik poboru wody,&lt;br/&gt; - podejście gazu, piec dwufunkcyjny, grzejniki.&lt;br/&gt;  &lt;br/&gt; 3. Wykończenie:&lt;br/&gt; - stolarka okienna PCV, rolety zewnętrzne&lt;br/&gt; - drzwi wejściowe do mieszkań,&lt;br/&gt; - parapety zewnętrzne, stalowe,&lt;br/&gt;- ściany wyszpachlowane,&lt;br/&gt; - tynki gipsowe.&lt;br/&gt;&lt;br/&gt;Do lokalu przynależy komórka lokatorska, której koszt wliczony jest w cenę oraz miejsce parkingowe ujęte w kwocie sprzedaży.&lt;br/&gt;&lt;br/&gt;Cena to kwota 320.000 zł.&lt;br/&gt;Kupujący zwolniony jest z podatku PCC (2%).&lt;br/&gt;&lt;br/&gt;Szczegóły dotyczące mieszkania w załączonych do ogłoszenia zdjęciach oraz w siedzibie Biura Nieruchomości Dan- Dom, ul. Wielka Poznańska 29 w Rogoźnie.&lt;br/&gt;&lt;br/&gt;Zapraszamy serdecznie do kontaktu:&lt;br/&gt;Danuta Majchrzak: 501-769-166, Joanna Szewczak: 506-541-111, e-mail: dan-dom@wp.pl.&lt;br/&gt;
+
+</description>
+  </offer>
+  <offer>
+    <signature>272/6093/ODS</signature>
+    <parameters>
+      <p id="1">272/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-04-28 13:52:34.0038</p>
+      <p id="5">2025-07-03 13:24:11.0597</p>
+      <p id="10">530000.0000</p>
+      <p id="13">2864.8600</p>
+      <p id="20">WOLNO STOJĄCY</p>
+      <p id="23">ODDZIELNA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39"></p>
+      <p id="41">UTWARDZONA</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">OBORNICKI</p>
+      <p id="47">ROGOŹNO</p>
+      <p id="48">ROGOŹNO</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52">RESTAURACJA, CENTRUM HANDLOWE, PLAC ZABAW</p>
+      <p id="53"></p>
+      <p id="55">PROSTOKĄT</p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="61">451.0000</p>
+      <p id="71">1989</p>
+      <p id="74">PUSTAK</p>
+      <p id="77">PAPA</p>
+      <p id="78">PCV</p>
+      <p id="79">5.0000</p>
+      <p id="89">C.O. GAZOWE,C.O. WŁASNE,PIEC</p>
+      <p id="93">124868.0000</p>
+      <p id="94">146704.0000</p>
+      <p id="121">WŁASNOŚĆ</p>
+      <p id="128">185.0000</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157"></p>
+      <p id="161">GARAŻ</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Reja</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Dom jednorodzinny w Rogoźnie</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>106685038.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685033.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685035.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685036.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685031.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685032.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685039.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685041.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685042.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685045.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685048.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685046.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106715258.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106715259.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>106685029.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Polecamy na sprzedaż dom jednorodzinny przy ulicy Reja w Rogoźnie.&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania.&lt;br/&gt;Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;&lt;br/&gt;  Nieruchomość stanowiąca działkę o powierzchni 451 m2, zabudowana domem piętrowym o łącznej powierzchni użytkowej ok. 185 m2.&lt;br/&gt;  Część mieszkalna aktualnie znajduje się na piętrze budynku:  trzy pokoje, kuchnia ze spiżarnią, łazienka z prysznicem i wc. Piętro z wyjściem na taras od strony ogrodu.&lt;br/&gt; Parter to częściowo pomieszczenia gospodarcze i techniczne, łazienka oraz pomieszczenie służące jako gabinet z niezależnym wejściem od frontu, idealne na prowadzenie działalności gospodarczej - biuro ,gabinet  kosmetyczny, fryzjerski  i inne .&lt;br/&gt;&lt;br/&gt;Nieruchomość posiada dwa źródła centralnego ogrzewania: piec gazowy oraz piec opałowy. Dodatkowe wyjście z tyłu budynku na posesję. Okna PCV, kanalizacja miejska. Na dachu położna nowa papa.&lt;br/&gt;&lt;br/&gt;  Na posesji znajduje się budynek garażowy. Ogród z nasadzeniami głównie drzewek i krzewów owocowych i ozdobnych .&lt;br/&gt;&lt;br/&gt;  Nieruchomość położona w bardzo dobrej lokalizacji. W pobliżu sklepy, markety, plac zabaw. W niedalekiej odległości stacja PKP, ze świetnym połączeniem Poznań- Piła.&lt;br/&gt; Dom idealnie nadaje się dla rodziny z dziećmi lub rodziny wielopokoleniowej.&lt;br/&gt; &lt;br/&gt; Osoba prowadząca ofertę: Joanna Szewczak  506-54-11-11, Danuta Majchrzak 501-769-166.&lt;br/&gt; &lt;br/&gt; Serdecznie zachęcamy do oglądania!&lt;br/&gt; W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt; &lt;br/&gt; Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt; https://www.facebook.com/biurodandom&lt;br/&gt;
+
+</description>
+  </offer>
+</PACKAGE>
