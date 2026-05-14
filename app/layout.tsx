@@ -44,10 +44,10 @@ export const metadata: Metadata = {
     url: canonicalUrl(""),
     images: [
       {
-        url: "/hero-biuro.jpg",
+        url: "/og-dandom.jpg",
         width: 1200,
-        height: 800,
-        alt: "Zespół Dan-Dom Nieruchomości",
+        height: 630,
+        alt: "Dan-Dom Nieruchomości — Biuro Nieruchomości Wągrowiec i Rogoźno",
       },
     ],
   },
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: defaultTitle,
     description: defaultDescription,
-    images: ["/hero-biuro.jpg"],
+    images: ["/og-dandom.jpg"],
   },
   robots: SITE_INDEXABLE
     ? { index: true, follow: true }

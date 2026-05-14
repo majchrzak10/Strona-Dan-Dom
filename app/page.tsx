@@ -18,7 +18,8 @@ export const metadata: Metadata = {
   description:
     "Biuro nieruchomości Wągrowiec i Rogoźno. 30 lat doświadczenia, 60 opinii ★4.9. Sprzedaż, zakup i wynajem nieruchomości. Zadzwoń: 501 769 166",
   alternates: { canonical: canonicalUrl("") },
-  openGraph: { url: canonicalUrl("") },
+  // openGraph dziedziczone z app/layout.tsx — NIE definiować tu własnego,
+  // bo page-level openGraph nadpisuje rodzica w całości (gubi images/type/locale).
 };
 
 const homeBreadcrumbJsonLd = breadcrumbJsonLd([{ name: "Strona główna", route: "" }]);
