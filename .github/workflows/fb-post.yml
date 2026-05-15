@@ -13,10 +13,11 @@
 
 name: FB Post — wybór oferty
 
+# UWAGA: cron wyłączony — bot FB przeniesiony do osobnego repo majchrzak10/dandom-fb-bot
+# (Graph API zamiast Make.com). Workflow zostawiony jako workflow_dispatch tylko do
+# ewentualnego ręcznego uruchomienia starej wersji w razie awarii nowego bota.
 on:
-  schedule:
-    - cron: "0 9 */2 * *"   # co 2 dni o 9:00 UTC (11:00 czasu polskiego latem)
-  workflow_dispatch:         # możliwość ręcznego uruchomienia
+  workflow_dispatch:         # możliwość ręcznego uruchomienia (cron wyłączony)
 
 concurrency:
   group: fb-post
