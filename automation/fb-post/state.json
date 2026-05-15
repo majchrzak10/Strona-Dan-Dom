@@ -167,6 +167,12 @@
       "status": "draft_sent",
       "addedAt": "2026-05-13T11:26:53.548Z",
       "sentAt": "2026-05-13T11:26:53.548Z"
+    },
+    {
+      "signature": "general_2026-05-15",
+      "status": "draft_sent",
+      "addedAt": "2026-05-15T11:14:37.023Z",
+      "sentAt": "2026-05-15T11:14:37.023Z"
     }
   ]
 }
