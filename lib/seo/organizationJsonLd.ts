@@ -19,6 +19,14 @@ export const organizationJsonLd = {
     { "@type": "City", name: "Wągrowiec" },
     { "@type": "City", name: "Rogoźno" },
   ],
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "ul. Kościuszki 28",
+    postalCode: "62-100",
+    addressLocality: "Wągrowiec",
+    addressRegion: "wielkopolskie",
+    addressCountry: "PL",
+  },
   sameAs: [
     "https://share.google/jGEGIgNzbrSzlVAR1",
     "https://share.google/iEoxCilgWTTCoq5bl",
