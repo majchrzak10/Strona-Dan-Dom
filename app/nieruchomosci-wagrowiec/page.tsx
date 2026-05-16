@@ -52,7 +52,6 @@ const areas = [
   "Wapno",
   "Mieścisko",
   "Runowo",
-  "Skoki",
 ];
 
 export default function NieruchomosciWagrowiecPage() {
