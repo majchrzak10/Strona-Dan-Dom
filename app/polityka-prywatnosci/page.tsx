@@ -5,7 +5,7 @@ import { breadcrumbJsonLd } from "@/lib/seo/breadcrumbJsonLd";
 import { canonicalUrl } from "@/lib/seo/site";
 
 export const metadata: Metadata = {
-  title: "Polityka prywatności — Dan-Dom Nieruchomości",
+  title: "Polityka prywatności",
   description:
     "Zasady przetwarzania danych osobowych i plików cookies w serwisie Dan-Dom Nieruchomości.",
   alternates: { canonical: canonicalUrl("polityka-prywatnosci") },

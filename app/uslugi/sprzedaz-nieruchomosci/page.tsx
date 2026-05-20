@@ -12,13 +12,13 @@ import { canonicalUrl } from "@/lib/seo/site";
 const PAGE_URL = canonicalUrl("uslugi/sprzedaz-nieruchomosci");
 
 export const metadata: Metadata = {
-  title: "Sprzedaż nieruchomości — Dan-Dom Wągrowiec i Rogoźno",
+  title: "Sprzedaż nieruchomości w Wągrowcu i Rogoźnie",
   description:
     "Skuteczna sprzedaż mieszkań, domów, działek i lokali. Bezpłatna wycena, pomoc w formalnościach i negocjacjach. Biuro nieruchomości Dan-Dom — 30 lat doświadczenia w Wągrowcu i Rogoźnie.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     url: PAGE_URL,
-    title: "Sprzedaż nieruchomości — Dan-Dom Wągrowiec i Rogoźno",
+    title: "Sprzedaż nieruchomości w Wągrowcu i Rogoźnie — Dan-Dom",
     description:
       "Skuteczna sprzedaż mieszkań, domów i działek. Bezpłatna wycena, pomoc w formalnościach i negocjacjach.",
     images: [

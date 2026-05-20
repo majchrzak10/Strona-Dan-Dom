@@ -10,6 +10,7 @@ import { loadAsariOffers } from "@/lib/asari/loadOffers";
 import { PLACEHOLDER_IMG } from "@/lib/asari/placeholderImg";
 import { photoNameFromApiUrl } from "@/lib/asari/photoUrl";
 import { offerJsonLd } from "@/lib/seo/offerJsonLd";
+import { breadcrumbJsonLd } from "@/lib/seo/breadcrumbJsonLd";
 import { canonicalUrl } from "@/lib/seo/site";
 import { sanitizeHtml } from "@/lib/sanitizeHtml";
 import { notFound } from "next/navigation";
@@ -50,16 +51,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   if (slug === STATIC_EXPORT_EMPTY_SLUG) {
     return {
-      title: "Oferta — Dan-Dom Nieruchomości",
+      title: "Oferta",
       robots: { index: false, follow: false },
     };
   }
   const { offers } = await loadAsariOffers();
   const o = offers.find((x) => x.slug === slug);
-  if (!o) return { title: "Oferta — Dan-Dom Nieruchomości" };
-  const description = [o.transaction, o.category, o.locationLabel, o.priceLabel]
+  if (!o) return { title: "Oferta" };
+  const description = [
+    o.title,
+    o.locationLabel ? `Lokalizacja: ${o.locationLabel}.` : "",
+    o.priceLabel ? `Cena: ${o.priceLabel}.` : "",
+    "Oferta biura nieruchomości Dan-Dom — Wągrowiec i Rogoźno. Zadzwoń: 501 769 166.",
+  ]
     .filter(Boolean)
-    .join(" · ");
+    .join(" ");
   const path = `oferty/${slug}`;
   const pageUrl = canonicalUrl(path);
   const ogImage = o.mainImageSrc ?? OG_FALLBACK_IMAGE;
@@ -162,12 +168,21 @@ export default async function OfertaSinglePage({ params }: Props) {
     </section>
   );
   const offerStructuredData = offerJsonLd({ offer: o });
+  const offerBreadcrumbJsonLd = breadcrumbJsonLd([
+    { name: "Strona główna", route: "" },
+    { name: "Oferty", route: "oferty" },
+    { name: o.title, route: `oferty/${slug}` },
+  ]);
 
   return (
     <div className="min-h-screen bg-[#f0f0f0] text-black">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(offerStructuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(offerBreadcrumbJsonLd) }}
       />
       <Navbar />
 

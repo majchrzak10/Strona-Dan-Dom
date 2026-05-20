@@ -2,9 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import ContactDetailsSection from "@/components/ContactDetailsSection";
+import OfferCard from "@/components/offers/OfferCard";
 import { breadcrumbJsonLd } from "@/lib/seo/breadcrumbJsonLd";
 import { faqJsonLd } from "@/lib/seo/faqJsonLd";
 import { canonicalUrl } from "@/lib/seo/site";
+import { loadAsariOffers } from "@/lib/asari/loadOffers";
+import { toCard } from "@/lib/asari/mapOffer";
 
 const PAGE_URL = canonicalUrl("nieruchomosci-rogozno");
 
@@ -53,7 +56,17 @@ const areas = [
   "Parkowo",
 ];
 
-export default function NieruchomosciRogoznoPage() {
+export default async function NieruchomosciRogoznoPage() {
+  const { offers } = await loadAsariOffers();
+  const cityKeywords = areas.map((a) => a.toLowerCase());
+  const cityOffers = offers
+    .map(toCard)
+    .filter((o) => {
+      const loc = (o.locationLabel ?? "").toLowerCase();
+      return cityKeywords.some((k) => loc.includes(k));
+    })
+    .slice(0, 6);
+
   return (
     <div className="min-h-screen min-w-0 overflow-x-hidden bg-[#f4f4f4] text-black">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
@@ -101,6 +114,32 @@ export default function NieruchomosciRogoznoPage() {
               </a>
             </div>
           </section>
+
+          {/* ── Oferty z miasta ── */}
+          {cityOffers.length > 0 ? (
+            <section className="rounded-2xl bg-white px-5 py-10 shadow-[0_4px_15px_rgba(0,0,0,0.05)] sm:px-10 sm:py-14 lg:px-14">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-primary">Oferty w Rogoźnie</p>
+              <h2 className="mt-2 font-[var(--font-playfair)] text-2xl font-bold text-black sm:text-3xl">
+                Aktualne nieruchomości w Rogoźnie i okolicy
+              </h2>
+              <div className="mt-3 h-0.5 w-14 rounded bg-brand-primary" />
+
+              <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {cityOffers.map((o) => (
+                  <OfferCard key={o.signature} offer={o} href={`/oferty/${o.slug}/`} />
+                ))}
+              </div>
+
+              <div className="mt-8">
+                <Link
+                  href="/nieruchomosci/"
+                  className="inline-flex min-h-[44px] items-center gap-2 rounded-full bg-brand-primary px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-brand-primary/85"
+                >
+                  Zobacz wszystkie oferty
+                </Link>
+              </div>
+            </section>
+          ) : null}
 
           {/* ── Obsługiwane miejscowości ── */}
           <section className="rounded-2xl bg-white px-5 py-10 shadow-[0_4px_15px_rgba(0,0,0,0.05)] sm:px-10 sm:py-14 lg:px-14">

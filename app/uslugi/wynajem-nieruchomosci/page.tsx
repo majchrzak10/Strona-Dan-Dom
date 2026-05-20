@@ -12,13 +12,13 @@ import { canonicalUrl } from "@/lib/seo/site";
 const PAGE_URL = canonicalUrl("uslugi/wynajem-nieruchomosci");
 
 export const metadata: Metadata = {
-  title: "Wynajem nieruchomości — Dan-Dom Wągrowiec i Rogoźno",
+  title: "Wynajem nieruchomości w Wągrowcu i Rogoźnie",
   description:
     "Wynajem mieszkań, domów i lokali użytkowych. Bezpłatna wycena czynszu, weryfikacja najemcy, bezpieczna umowa najmu. Biuro nieruchomości Dan-Dom — 30 lat doświadczenia w Wągrowcu i Rogoźnie.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     url: PAGE_URL,
-    title: "Wynajem nieruchomości — Dan-Dom Wągrowiec i Rogoźno",
+    title: "Wynajem nieruchomości w Wągrowcu i Rogoźnie — Dan-Dom",
     description: "Wynajem mieszkań, domów i lokali. Weryfikacja najemcy, bezpieczna umowa najmu, pełna obsługa.",
     images: [
       {

@@ -27,6 +27,11 @@ export const organizationJsonLd = {
     addressRegion: "wielkopolskie",
     addressCountry: "PL",
   },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 52.8123328,
+    longitude: 17.2010919,
+  },
   sameAs: [
     "https://share.google/jGEGIgNzbrSzlVAR1",
     "https://share.google/iEoxCilgWTTCoq5bl",
@@ -43,6 +48,12 @@ export const organizationJsonLd = {
         addressRegion: "wielkopolskie",
         addressCountry: "PL",
       },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 52.8123328,
+        longitude: 17.2010919,
+      },
+      hasMap: "https://share.google/jGEGIgNzbrSzlVAR1",
     },
     {
       "@type": "Place",
@@ -55,6 +66,12 @@ export const organizationJsonLd = {
         addressRegion: "wielkopolskie",
         addressCountry: "PL",
       },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 52.7492756,
+        longitude: 17.0038393,
+      },
+      hasMap: "https://share.google/iEoxCilgWTTCoq5bl",
     },
   ],
   aggregateRating: {

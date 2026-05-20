@@ -73,13 +73,13 @@ export default function Hero() {
             className="pointer-events-auto flex w-full flex-col items-start justify-start px-[max(1rem,env(safe-area-inset-left))] pt-[max(4rem,env(safe-area-inset-top))] pr-[max(1rem,env(safe-area-inset-right))] pb-[max(0.5rem,env(safe-area-inset-bottom))] sm:px-6 md:pt-20"
           >
             <div className="mx-auto flex w-full min-w-0 max-w-[min(100%,28rem)] flex-col items-center text-center pb-8 md:pb-12">
-              <h1 className="text-[clamp(0.625rem,2.5vw,0.6875rem)] font-semibold uppercase tracking-[0.25em] text-white/70">
+              <p className="text-[clamp(0.625rem,2.5vw,0.6875rem)] font-semibold uppercase tracking-[0.25em] text-white/70">
                 Biuro Nieruchomości · od 1996 roku
-              </h1>
-
-              <p className="mt-3 max-w-sm text-[clamp(0.8125rem,2.8vw,0.9375rem)] leading-relaxed text-white/80 drop-shadow-sm md:max-w-md">
-                Kompleksowa obsługa sprzedaży, zakupu i wynajmu nieruchomości w Wągrowcu i Rogoźnie.
               </p>
+
+              <h1 className="mt-3 max-w-sm text-[clamp(0.8125rem,2.8vw,0.9375rem)] leading-relaxed text-white/80 drop-shadow-sm md:max-w-md">
+                Kompleksowa obsługa sprzedaży, zakupu i wynajmu nieruchomości w Wągrowcu i Rogoźnie.
+              </h1>
 
               <div className="mt-4 flex justify-center">
                 <Link

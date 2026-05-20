@@ -12,13 +12,13 @@ import { canonicalUrl } from "@/lib/seo/site";
 const PAGE_URL = canonicalUrl("uslugi/wycena-nieruchomosci");
 
 export const metadata: Metadata = {
-  title: "Wycena nieruchomości — Dan-Dom Wągrowiec i Rogoźno",
+  title: "Wycena nieruchomości w Wągrowcu i Rogoźnie",
   description:
     "Bezpłatna wycena mieszkań, domów, działek i lokali w Wągrowcu i Rogoźnie. 30 lat doświadczenia, znamy lokalny rynek. Podpowiemy realną wartość przed sprzedażą lub wynajmem.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     url: PAGE_URL,
-    title: "Wycena nieruchomości — Dan-Dom Wągrowiec i Rogoźno",
+    title: "Wycena nieruchomości w Wągrowcu i Rogoźnie — Dan-Dom",
     description: "Bezpłatna wycena mieszkań, domów i działek. Realna wartość rynkowa przed sprzedażą lub wynajmem.",
     images: [
       {
