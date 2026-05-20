@@ -49,6 +49,26 @@ const homeFaqJsonLd = faqJsonLd("home", [
     answer:
       "Zadzwoń pod 501 769 166 lub napisz na biuro@dan-dom.pl. Agent umówi się na oględziny i przedstawi wycenę w ciągu kilku dni — bez żadnych zobowiązań.",
   },
+  {
+    question: "Ile wynosi prowizja biura nieruchomości Dan-Dom?",
+    answer:
+      "Prowizja ustalana jest indywidualnie i pobierana dopiero po sfinalizowaniu transakcji — nie ponosisz żadnych kosztów z góry ani opłat za samo wystawienie oferty. Szczegóły omówimy podczas bezpłatnej konsultacji: 501 769 166.",
+  },
+  {
+    question: "Czy warto sprzedawać nieruchomość przez biuro nieruchomości?",
+    answer:
+      "Tak — biuro przejmuje wycenę, profesjonalne zdjęcia, publikację ogłoszeń, prezentacje dla kupujących, negocjacje oraz formalności notarialne. Dan-Dom dzięki 30-letniej obecności na rynku i lokalnej bazie kupujących sprzedaje skuteczniej i bezpieczniej niż samodzielna sprzedaż.",
+  },
+  {
+    question: "Czym kierować się przy wyborze biura nieruchomości w Wągrowcu?",
+    answer:
+      "Sprawdź doświadczenie, licencję zawodową pośrednika, opinie klientów oraz znajomość lokalnego rynku. Dan-Dom działa w Wągrowcu i Rogoźnie od 1996 roku, posiada licencję pośrednika nr 577 i średnią ocen 4,9/5 z ponad 60 opinii.",
+  },
+  {
+    question: "Jaki jest obszar działania biura Dan-Dom?",
+    answer:
+      "Dan-Dom obsługuje powiat wągrowiecki i powiat obornicki — głównie Wągrowiec, Rogoźno i okolice. Biura stacjonarne znajdują się przy ul. Kościuszki 28 w Wągrowcu oraz ul. Wielkiej Poznańskiej 29 w Rogoźnie.",
+  },
 ]);
 
 export default function Home() {
