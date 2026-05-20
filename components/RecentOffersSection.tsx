@@ -59,6 +59,7 @@ export default async function RecentOffersSection() {
               </Link>
             </p>
           ) : (
+            <>
             <div className="grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-6">
               {top3.map((offer) => {
                 const imgSrc = offer.mainImageSrc ?? PLACEHOLDER_IMG;
@@ -99,6 +100,21 @@ export default async function RecentOffersSection() {
                 );
               })}
             </div>
+
+            <div className="mt-6 flex justify-center sm:mt-8">
+              <Link
+                href="/nieruchomosci/"
+                className="inline-flex min-h-[48px] touch-manipulation items-center justify-center gap-2 rounded-full bg-burgundy px-7 text-sm font-bold uppercase tracking-wide text-white shadow-sm transition-colors hover:bg-[#660019] focus:outline-none focus-visible:ring-2 focus-visible:ring-burgundy/60 focus-visible:ring-offset-2 active:scale-[0.99]"
+                aria-label="Zobacz wszystkie oferty nieruchomości"
+              >
+                Wszystkie oferty
+                <svg aria-hidden="true" className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none">
+                  <path d="M5 12h13" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                  <path d="M13 6l6 6-6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </Link>
+            </div>
+            </>
           )}
         </div>
       </div>
