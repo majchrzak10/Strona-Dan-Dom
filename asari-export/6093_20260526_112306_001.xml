@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>109/6093/OMW</signature>
+    <parameters>
+      <p id="1">109/6093/OMW</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-05-26 11:20:32.0639</p>
+      <p id="5">2026-05-25 09:44:03.0176</p>
+      <p id="10">1300.0000</p>
+      <p id="11">1300.0000</p>
+      <p id="14">32.5000</p>
+      <p id="19">1-POKOJOWE</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">MIESZKANIE</p>
+      <p id="38"></p>
+      <p id="43">WYNAJEM</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">OBORNICKI</p>
+      <p id="47">ROGOŹNO</p>
+      <p id="48">CIEŚLE</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="62">0.0000</p>
+      <p id="63">0.0000</p>
+      <p id="70">MIESZKALNO-BIUROWY</p>
+      <p id="72">WYSOKI STANDARD</p>
+      <p id="78">PCV</p>
+      <p id="79">1.0000</p>
+      <p id="82">GARAŻ</p>
+      <p id="86"></p>
+      <p id="89">C.O. GAZOWE</p>
+      <p id="93">306.9300</p>
+      <p id="94">357.3700</p>
+      <p id="128">40.0000</p>
+      <p id="131">306.9300</p>
+      <p id="132">357.3700</p>
+      <p id="141">PLN</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Na wynajem lokal mieszkalny</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>112810750.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112810751.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112810752.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112810753.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112810754.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112810756.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112811304.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112810747.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Polecamy do wynajęcia lokal mieszkalny położony w Rogoźnie- Cieśle.&lt;br/&gt;&lt;br/&gt;Mieszkanie składa się z dużego przestronnego pokoju, kuchni, łazienki, wiatrołapu oraz korytarza.&lt;br/&gt;&lt;br/&gt;Posesja ogrodzona, z bramą wjazdową, teren wokół budynku utwardzony i oświetlony. &lt;br/&gt;&lt;br/&gt;Opłaty:&lt;br/&gt;- wynajem: 1.300 zł/m-c&lt;br/&gt;- kaucja: 2.000 zł&lt;br/&gt;- opłaty za media: prąd, gaz, woda- według zużycia&lt;br/&gt;- wynagrodzenie biura: 1.000 zł.&lt;br/&gt;&lt;br/&gt;Nieruchomość o wysokim standardzie, dobra lokalizacja, przy trasie Rogoźno- Wągrowiec.&lt;br/&gt;&lt;br/&gt;Kontakt do osoby prowadzącej ofertę: 501 769 166.&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom
+
+</description>
+  </offer>
+</PACKAGE>
