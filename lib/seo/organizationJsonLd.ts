@@ -1,4 +1,5 @@
 import { canonicalUrl, SITE_URL } from "./site";
+import reviewStats from "../data/reviewStats.json";
 
 /** Schema.org dla biura nieruchomości (Google Rich Results / lokalne / LLM-friendly fakty). */
 export const organizationJsonLd = {
@@ -76,8 +77,8 @@ export const organizationJsonLd = {
   ],
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "81",
+    ratingValue: String(reviewStats.rating),
+    reviewCount: String(reviewStats.count),
     bestRating: "5",
     worstRating: "1",
   },

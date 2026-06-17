@@ -4,6 +4,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import { organizationJsonLd } from "@/lib/seo/organizationJsonLd";
 import { canonicalUrl, SITE_INDEXABLE, SITE_URL } from "@/lib/seo/site";
 import { faviconUrl } from "@/lib/seo/favicon";
+import reviewStats from "@/lib/data/reviewStats.json";
 import "./globals.css";
 
 const inter = Inter({
@@ -19,8 +20,7 @@ const playfair = Playfair_Display({
 });
 
 const defaultTitle = "Biuro Nieruchomości Wągrowiec i Rogoźno — Dan-Dom | Od 1996";
-const defaultDescription =
-  "Biuro nieruchomości Wągrowiec i Rogoźno. 30 lat doświadczenia, 81 opinii ★4.9. Sprzedaż, zakup i wynajem nieruchomości. Zadzwoń: 501 769 166";
+const defaultDescription = `Biuro nieruchomości Wągrowiec i Rogoźno. 30 lat doświadczenia, ${reviewStats.count} opinii ★${reviewStats.rating}. Sprzedaż, zakup i wynajem nieruchomości. Zadzwoń: 501 769 166`;
 
 /** Kolor motywu PWA / meta — spójny z `--color-brand-primary` w `globals.css`. */
 const BRAND_THEME_COLOR = "#800020";
