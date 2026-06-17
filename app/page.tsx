@@ -16,7 +16,7 @@ import { faqJsonLd } from "@/lib/seo/faqJsonLd";
 export const metadata: Metadata = {
   title: "Biuro Nieruchomości Wągrowiec i Rogoźno — Dan-Dom | Od 1996",
   description:
-    "Biuro nieruchomości Wągrowiec i Rogoźno. 30 lat doświadczenia, 60 opinii ★4.9. Sprzedaż, zakup i wynajem nieruchomości. Zadzwoń: 501 769 166",
+    "Biuro nieruchomości Wągrowiec i Rogoźno. 30 lat doświadczenia, 81 opinii ★4.9. Sprzedaż, zakup i wynajem nieruchomości. Zadzwoń: 501 769 166",
   alternates: { canonical: canonicalUrl("") },
   // openGraph dziedziczone z app/layout.tsx — NIE definiować tu własnego,
   // bo page-level openGraph nadpisuje rodzica w całości (gubi images/type/locale).
@@ -62,7 +62,7 @@ const homeFaqJsonLd = faqJsonLd("home", [
   {
     question: "Czym kierować się przy wyborze biura nieruchomości w Wągrowcu?",
     answer:
-      "Sprawdź doświadczenie, licencję zawodową pośrednika, opinie klientów oraz znajomość lokalnego rynku. Dan-Dom działa w Wągrowcu i Rogoźnie od 1996 roku, posiada licencję pośrednika nr 577 i średnią ocen 4,9/5 z ponad 60 opinii.",
+      "Sprawdź doświadczenie, licencję zawodową pośrednika, opinie klientów oraz znajomość lokalnego rynku. Dan-Dom działa w Wągrowcu i Rogoźnie od 1996 roku, posiada licencję pośrednika nr 577 i średnią ocen 4,9/5 z ponad 80 opinii.",
   },
   {
     question: "Jaki jest obszar działania biura Dan-Dom?",

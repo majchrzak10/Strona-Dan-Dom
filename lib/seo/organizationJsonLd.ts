@@ -77,7 +77,7 @@ export const organizationJsonLd = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
-    reviewCount: "60",
+    reviewCount: "81",
     bestRating: "5",
     worstRating: "1",
   },
