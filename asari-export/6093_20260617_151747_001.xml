@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>314/6093/ODS</signature>
+    <parameters>
+      <p id="1">314/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-06-17 15:16:42.0216</p>
+      <p id="5">2026-05-29 10:37:49.0682</p>
+      <p id="10">490000.0000</p>
+      <p id="23">OTWARTA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39"></p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">OBORNICKI</p>
+      <p id="47">ROGOŹNO</p>
+      <p id="48">OWCZEGŁOWY</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52">LAS, JEZIORO</p>
+      <p id="53"></p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="61">2247.0000</p>
+      <p id="63">1.0000</p>
+      <p id="78"></p>
+      <p id="79">2.0000</p>
+      <p id="93">115591.0000</p>
+      <p id="94">134113.0000</p>
+      <p id="121">WŁASNOŚĆ</p>
+      <p id="128">35.0000</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157"></p>
+      <p id="161"></p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Leszczynowa</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Urokliwa działka rekreacyjna z domkiem i ogrodem</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>113020135.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020130.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020124.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020133.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020128.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020144.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020146.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319201.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319200.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319204.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319203.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319205.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319206.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319202.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319207.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319210.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319208.jpg</unique>
+        <status>0</status>
+        <weight>17</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319211.jpg</unique>
+        <status>0</status>
+        <weight>18</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319212.jpg</unique>
+        <status>0</status>
+        <weight>19</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020158.jpg</unique>
+        <status>0</status>
+        <weight>20</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Oferujemy Państwu na sprzedaż wyjątkowo urokliwą działkę z pięknie zagospodarowanym ogrodem i domkiem rekreacyjnym, zlokalizowaną w spokojnej miejscowości Owczegłowy.&lt;br/&gt;NAJWIĘKSZY ATUT: Działka o niezwykłym, magicznym klimacie, pełna dojrzałej zieleni, starodrzewu oraz urokliwych zakątków takich jak oczko wodne czy własna strefa warzywna z drewnianą szklarnią. To gotowe, niezwykle prywatne miejsce do wypoczynku z dala od miejskiego zgiełku.&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania. Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;CHARAKTERYSTYKA TERENU: Nieruchomość stanowi istną oazę spokoju. Na terenie znajduje się klimatyczny domek rekreacyjny o bryle typu "Brda" z nowym, czerwonym dachem i zadaszonym tarasem, idealnym na poranną kawę Posesja jest bogato i przemyślanie zagospodarowana:&lt;ul&gt;&lt;li&gt;romantyczne oczko wodne z liliami wodnymi&lt;/li&gt;&lt;li&gt;drewniane mostki oraz strefy relaksu z ławkami i stołami ukryte w cieniu drzew&lt;/li&gt;&lt;li&gt;drewniany budynek gospodarczy z uroczymi okiennicami, malowniczo porośnięty bluszczem&lt;/li&gt;&lt;li&gt;wydzielona strefa uprawna z podwyższonymi grządkami, krzewami owocowymi i dużą szklarnią&lt;/li&gt;&lt;/ul&gt;Teren jest urozmaicony, otoczony bogatą roślinnością (m.in. dorodne sosny, brzozy, dęby i gęste krzewy ozdobne), co zapewnia całkowitą prywatność. Działka ewidencyjnie oznaczona jest jako rola, jednak w pełni zaadaptowana do funkcji wypoczynkowo-rekreacyjnej.&lt;br/&gt;KONTAKT Osoba prowadząca ofertę: Marta Janusz tel. 519 110 078, oraz Danuta Majchrzak 501 769 166.&lt;br/&gt;Serdecznie zachęcamy do oglądania! W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook: https://www.facebook.com/biurodandom
+
+</description>
+  </offer>
+  <offer>
+    <signature>403/6093/OMS</signature>
+    <parameters>
+      <p id="1">403/6093/OMS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-06-17 14:30:10.0553</p>
+      <p id="5">2026-02-26 10:35:36.0513</p>
+      <p id="10">198000.0000</p>
+      <p id="13">5380.4300</p>
+      <p id="19">2-POKOJOWE</p>
+      <p id="23">BEZ OKNA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">MIESZKANIE</p>
+      <p id="38"></p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">OBORNICKI</p>
+      <p id="47">ROGOŹNO</p>
+      <p id="48">ROGOŹNO</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="59">DOMOFON</p>
+      <p id="60">POLSKA</p>
+      <p id="62">0.0000</p>
+      <p id="70">NISKI BLOK</p>
+      <p id="71">1973</p>
+      <p id="78"></p>
+      <p id="79">2.0000</p>
+      <p id="82">PIWNICA, KOMÓRKA</p>
+      <p id="83">1.0000</p>
+      <p id="84">0.0000</p>
+      <p id="86"></p>
+      <p id="89">C.O. Z SIECI MIEJSKIEJ</p>
+      <p id="93">46708.2000</p>
+      <p id="94">54192.6000</p>
+      <p id="121">WŁASNOŚĆ</p>
+      <p id="128">36.8000</p>
+      <p id="141">PLN</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Osiedle Przemysława II</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Mieszkanie w bloku na parterze</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>113319092.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110974833.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110974832.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110974829.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110974827.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110974834.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110974830.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>110974828.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>REZERWACJA OFERTY!!!!!!!!!!!!!!&lt;br/&gt;&lt;br/&gt;Polecamy na sprzedaż mieszkanie położone w centrum Rogoźna, na osiedlu Przemysława II.&lt;br/&gt;&lt;br/&gt;Lokal o powierzchni ok. 37m2, usadowiony jest na parterze w niskim bloku. Składa się z dwóch pokoi, kuchni, łazienki oraz przedpokoju.  Mieszkanie jest opróżnione i gotowe do zamieszkania.&lt;br/&gt;&lt;br/&gt;Położenie: na osiedlu, w centrum miasta. Wokół liczne sklepy, bank, apteka, szkoła, przedszkole itp.&lt;br/&gt;&lt;br/&gt;Nieruchomość stanowi pełną własność z własną księgą wieczystą. Opłata czynszu do Spółdzielni wynosi ok. 380zł/ m-c. + zaliczki na wodę, ścieki i opłata za śmieci- w zależności od ilości osób. Dodatkowe opłaty to prąd i gaz- według zużycia.&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;Osoba prowadząca ofertę:  Joanna Szewczak 506-54-11-11, Danuta Majchrzak 501-769-166.&lt;br/&gt;&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania. Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.
+
+</description>
+  </offer>
+  <offer>
+    <signature>308/6093/ODS</signature>
+    <parameters>
+      <p id="1">308/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-06-17 14:34:01.0242</p>
+      <p id="5">2026-05-06 09:16:16.0235</p>
+      <p id="10">320000.0000</p>
+      <p id="13">4540.3000</p>
+      <p id="20">BLIŹNIACZY</p>
+      <p id="23">OTWARTA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39">KAN. MIEJSKA</p>
+      <p id="41">UTWARDZONA</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">WĄGROWIECKI</p>
+      <p id="47">WĄGROWIEC</p>
+      <p id="48">KOBYLEC</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="53"></p>
+      <p id="55">PROSTOKĄT</p>
+      <p id="58">70.4800</p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="61">120.0000</p>
+      <p id="63">1.0000</p>
+      <p id="71">1985</p>
+      <p id="72">DOBRY</p>
+      <p id="77">BLACHA</p>
+      <p id="78">PCV</p>
+      <p id="79">4.0000</p>
+      <p id="83">2.0000</p>
+      <p id="87">PIEC WĘGLOWY/DREWNO</p>
+      <p id="89">C.O. WĘGLOWE,C.O. WŁASNE</p>
+      <p id="93">75488.0000</p>
+      <p id="94">87584.0000</p>
+      <p id="128">70.4800</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157">ELEKTRYCZNA, WODNA</p>
+      <p id="161"></p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Winogronowa</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Mały dom w Kobylcu –  blisko jeziora i lasu!</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>112597033.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588865.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588868.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588863.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588860.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588857.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588872.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588878.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588855.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588883.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588885.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112588889.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112597034.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>W naszej ofercie dom położony w malowniczej miejscowości Kobylec blisko miasta powiatowego.&lt;br/&gt;Jezioro Kobyleckie na wyciągnięcie ręki – miejscowość leży bezpośrednio nad malowniczym akwenem otoczonym lasami, oferującym piaszczystą plażę miejską, infrastrukturę dla dzieci oraz wypożyczalnie kajaków i rowerków wodnych.&lt;br/&gt;Mieszkańcy Kobylca mogą na co dzień korzystać z udogodnień sąsiedniego miasta, takich jak Aquapark Wągrowiec, promenada nad Jeziorem Durowskim, restauracje, kino, centra handlowe.&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania.&lt;br/&gt;Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;&lt;br/&gt;LOKALIZACJA:&lt;br/&gt;Miasto / dzielnica: Kobylec, sypialnia Wągrowca - dojazd miasta zajmuje ok. 10 minut.&lt;br/&gt;Okolica: osiedle, zabudowa jednorodzinna oraz letniskowa, &lt;br/&gt;Dojazd: do samej posesji drogą polną (ok. 60 m), wcześniej drogą asfaltową&lt;br/&gt;&lt;br/&gt;SZCZEGÓŁY NIERUCHOMOŚCI&lt;br/&gt;Powierzchnia całkowita domu: 70,48 m²&lt;br/&gt;Rodzaj budynku: segment bliźniaka (lewy)&lt;br/&gt;Rok budowy: lata 80te&lt;br/&gt;Stan nieruchomości: dobry&lt;br/&gt;Ogrzewanie: piec węglowy zainstalowany w kotłowni przy budynku&lt;br/&gt;Ciepła woda: piec węglowy + piec elektryczny na lato&lt;br/&gt;Koszty utrzymania: prąd, woda/ścieki, węgiel/drewno, oraz 1 raz w roku podatek od nieruchomości&lt;br/&gt;&lt;br/&gt;UKŁAD I WYPOSAŻENIE&lt;br/&gt;PARTER: pokój dzienny z aneksem kuchennym, łazienka z toaletą, skrytka, oraz holl z wejściem na piętro.&lt;br/&gt;PIĘTRO: 3 pokoje, oraz toaleta&lt;br/&gt;Wyposażenie: umeblowanie do uzgodnienia.&lt;br/&gt;Przed budynkiem znajdują się także zabudowania gospodarcze, oraz wiata na drewno&lt;br/&gt;&lt;br/&gt;DODATKOWE INFORMACJE&lt;br/&gt;Forma własności: pełna własność z księgą wieczystą&lt;br/&gt;Piwnica: nie&lt;br/&gt;Garaż: nie&lt;br/&gt;Miejsce parkingowe: na posesji, także przed domem&lt;br/&gt;Nieruchomość ogrodzona z bramą wjazdową&lt;br/&gt;Dostępne od: terminy do uzgodnienia&lt;br/&gt;&lt;br/&gt;ATUTY NIERUCHOMOŚCI&lt;br/&gt;Położenie w bliskiej odległości od jeziora - ok. 200 m.&lt;br/&gt;Komfortowy dojazd do miasta, w zacisznej i spokojnej okolicy&lt;br/&gt;Możliwość wykorzysta nieruchomości na cele rekreacyjne, letni wypoczynek.&lt;br/&gt;&lt;br/&gt;Uprzejmie prosimy o uszanowanie prywatności właściciela - zapraszamy do kontaktu z biurem.&lt;br/&gt;&lt;br/&gt;KONTAKT&lt;br/&gt;Imię i nazwisko: Marta Janusz, licencja PFRN nr 28634&lt;br/&gt;Imię i nazwisko: Danuta Majchrzak, licencja PFRN nr 577&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom
+
+</description>
+  </offer>
+</PACKAGE>
