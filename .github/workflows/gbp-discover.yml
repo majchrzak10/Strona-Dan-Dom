@@ -1,0 +1,21 @@
+# Diagnostyka GBP — ręczne uruchomienie (Actions → Run workflow).
+# Autoryzuje się jako manager wizytówki i wypisuje konta + location ID.
+name: GBP discover (diagnostyka)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Discover accounts & locations
+        env:
+          GBP_CLIENT_ID: ${{ secrets.GBP_CLIENT_ID }}
+          GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+          GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+        run: node scripts/gbp-discover.mjs
