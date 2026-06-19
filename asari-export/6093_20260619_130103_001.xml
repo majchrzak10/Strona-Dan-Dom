@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>318/6093/ODS</signature>
+    <parameters>
+      <p id="1">318/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-06-19 12:13:03.0824</p>
+      <p id="5">2026-06-18 10:31:49.0665</p>
+      <p id="10">899000.0000</p>
+      <p id="13">7750.0000</p>
+      <p id="20">WOLNO STOJĄCY</p>
+      <p id="23">OTWARTA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39">KAN. MIEJSKA</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">OBORNICKI</p>
+      <p id="47">ROGOŹNO</p>
+      <p id="48">GARBATKA</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="53"></p>
+      <p id="54">PŁASKIE</p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="61">1202.0000</p>
+      <p id="63">0.0000</p>
+      <p id="71">2023</p>
+      <p id="72">WYSOKI STANDARD</p>
+      <p id="77">DACHÓWKA CERAMICZNA</p>
+      <p id="78">PCV, Z ROLETAMI</p>
+      <p id="79">4.0000</p>
+      <p id="81">CZĘŚCIOWO</p>
+      <p id="83">2.0000</p>
+      <p id="84">1.0000</p>
+      <p id="87">PIEC GAZOWY</p>
+      <p id="89">C.O. GAZOWE,C.O. WŁASNE</p>
+      <p id="93">211175.1000</p>
+      <p id="94">242460.3000</p>
+      <p id="121">WŁASNOŚĆ</p>
+      <p id="128">116.0000</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157">ELEKTRYCZNA, WODNA, GAZOWA</p>
+      <p id="161">GARAŻ</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Nowoczesny dom jednorodzinny z garażem</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>113344696.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334790.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334791.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334792.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334793.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334794.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334796.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334797.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334798.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334799.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334800.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334801.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334802.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113344602.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113344614.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113334804.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Polecamy na sprzedaż piękną nieruchomość, położoną w Garbatce, gm. Rogoźno.&lt;br/&gt;&lt;br/&gt;Ofertę stanowi dom jednorodzinny, parterowy, z garażem jednostanowiskowym o powierzchni łącznej 116 m2. Usytuowany jest na działce o powierzchni 1.202m2.&lt;br/&gt;Układ pomieszczeń: wiatrołap, korytarz, otwarta kuchnia, salon, 3 sypialnie, łazienka, wc, pomieszczenie gospodarcze oraz garaż. Kuchnia w meblach w zabudowie bez sprzętów. Brama garażowa oraz wjazdowa sterowane pilotem. Nieruchomość ogrodzona.&lt;br/&gt;&lt;br/&gt;Okna pcv z roletami zewnętrznymi, ogrzewanie gazowe. Media: prąd, gaz, woda miejska, kanalizacja. W pomieszczeniu gospodarczym zamontowany zmiękczacz wody.&lt;br/&gt;&lt;br/&gt;Wnętrze urządzone w naturalnych, jasnych kolorach, pomieszczenia ustawne i komfortowe. Nieruchomość gotowa do zamieszkania!&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania.&lt;br/&gt;Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;&lt;br/&gt;Osoba prowadząca ofertę:  Joanna Szewczak 506-54-11-11, Danuta Majchrzak 501-769-166.&lt;br/&gt;&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom
+
+</description>
+  </offer>
+  <offer>
+    <signature>319/6093/ODS</signature>
+    <parameters>
+      <p id="1">319/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-06-19 12:51:03.0854</p>
+      <p id="5">2026-06-19 11:44:23.0083</p>
+      <p id="10">1390000.0000</p>
+      <p id="13">12410.7100</p>
+      <p id="20">WOLNO STOJĄCY</p>
+      <p id="23">OTWARTA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39">SZAMBO</p>
+      <p id="41">GRUNTOWA</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">WĄGROWIECKI</p>
+      <p id="47">WĄGROWIEC</p>
+      <p id="48">WĄGROWIEC</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52">LAS</p>
+      <p id="53"></p>
+      <p id="54">PŁASKIE</p>
+      <p id="55">PROSTOKĄT</p>
+      <p id="58">89.8400</p>
+      <p id="59">ALARM, MONITORING, DOMOFON</p>
+      <p id="60">POLSKA</p>
+      <p id="61">23827.0000</p>
+      <p id="63">0.0000</p>
+      <p id="71">2014</p>
+      <p id="72">WYSOKI STANDARD</p>
+      <p id="78"></p>
+      <p id="79">4.0000</p>
+      <p id="83">1.0000</p>
+      <p id="87">PIEC WĘGLOWY/DREWNO</p>
+      <p id="89">C.O. WŁASNE,EKOLOGICZNE</p>
+      <p id="93">326511.0000</p>
+      <p id="94">374883.0000</p>
+      <p id="121">WŁASNOŚĆ</p>
+      <p id="128">112.0000</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157">ELEKTRYCZNA, WODNA</p>
+      <p id="161">GARAŻ</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Piękna leśna działka z domem - Oaza Spokoju</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>113366044.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364807.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364811.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364809.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364782.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364783.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364792.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364794.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364796.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364798.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364800.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364805.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364803.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364785.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364786.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364787.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113365892.jpg</unique>
+        <status>0</status>
+        <weight>17</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364784.jpg</unique>
+        <status>0</status>
+        <weight>18</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364789.jpg</unique>
+        <status>0</status>
+        <weight>19</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113364790.jpg</unique>
+        <status>0</status>
+        <weight>20</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Oferujemy na sprzedaż ofertę unikatową - perełka wśród nieruchomości - pod samym lasem. Miejsce, gdzie rytm życia wyznacza wszechobecna natura.&lt;br/&gt;Jeśli cenisz sobie spokój, prywatność i duże przestrzenie, to ta oferta jest idealna.&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania. &lt;br/&gt;Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;&lt;br/&gt;Na sprzedaż piękna duża działka wraz z domem wolnostojącym, oraz sporym budynkiem gospodarczym, który obecnie funkcjonuje jako warsztat właścicieli.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;&lt;u&gt;LOKALIZACJA&lt;/u&gt;:&lt;/b&gt;&lt;br/&gt;Niewielka malownicza miejscowość pod Wągrowcem - Rudniczyn - 6 km dojazd do miasta drogą asfaltową (200 metrów drogą polną).&lt;br/&gt; &lt;br/&gt;&lt;b&gt;&lt;u&gt;DOM: &lt;/u&gt;&lt;/b&gt;&lt;br/&gt;Parterowy dom o powierzchni 112 m2 to propozycja dla osób, które cenią prywatność i codzienny komfort w otoczeniu zieleni z jednoczesnym szybkim i bezproblemowym dostępem do miasta. &lt;br/&gt;Dom zaprojektowany tak, by zachować naturalny krajobraz i maksymalnie wykorzystać światło dzienne.&lt;br/&gt;Ogrzewanie podłogowe w części dziennej z niezależnymi sekcjami sterowania. Rolety zewnętrzne. Domofon w dwóch miejscach. Alarm podłączony do centrali firmy ochroniarskiej. Szambo. Niezależne źródło prądu i wody (fotowoltaika z własnym magazynem, oraz studnia).&lt;br/&gt;Najważniejszym punktem domu jest dobrze doświetlony i otwarty salon z wolnostojącym kominkiem i wyjściem na duży zadaszony taras i ogród.&lt;br/&gt;Kuchnia połączona z salonem oraz z dostępem do dobrze zorganizowanej spiżarni.&lt;br/&gt;Część prywatna domu to trzy sypialnie i łazienka.&lt;br/&gt;Garaż w bryle budynku połączony z zapleczem technicznym.&lt;br/&gt;Całość zaprojektowana na jednym poziomie z myślą o wygodzie na wiele lat, ale poddasze oferuje dodatkową przestrzeń do własnej aranżacji.&lt;br/&gt; &lt;br/&gt;&lt;b&gt;&lt;u&gt;BUDYNEK GOSPODARCZO-GARAŻOWY:&lt;/u&gt;&lt;/b&gt;&lt;br/&gt;Powierzchnia budynku to ok. 50 m2, w środku znajduje się kanał samochodowy, biuro na antresoli, niezależne źródło ogrzewania. Część budynku stanowi porządna konstrukcja drewniana, wykorzystywana obecnie jako magazyn. &lt;br/&gt;&lt;br/&gt;&lt;b&gt;&lt;u&gt;DZIAŁKA:&lt;/u&gt;&lt;/b&gt;&lt;br/&gt;Działka całkowicie ogrodzona, o powierzchni 2,3827 ha położona na skraju wsi, przy ścianie pięknego lasu. Okolica jest spokojna, pełna harmonii i uroku.  Brama wjazdowa na pilota.&lt;br/&gt;Ok. 8.000 m2 to dobrze zaaranżowany ogród, który został zaplanowany tak aby od wczesnej wiosny do później jesieni można było korzystać z jego uroków oraz by kwitły różne gatunki roślin. &lt;br/&gt;Ogród posiada kilka stref funkcjonalnych:&lt;br/&gt;- miejsce do rekreacji (drewniany domek z stołem i paleniskiem do grillowania, oczko wodne z strefą leżaków i odpoczynku)&lt;br/&gt;- miejsce do uprawy warzyw i owoców (foliak do pomidorów, skrzynie do uprawy warzyw, sad oraz specjalne miejsca do uprawy malin, borówek i truskawek)&lt;br/&gt;- piwniczkę murowaną wyposażoną w porządne regały&lt;br/&gt; &lt;br/&gt;Jest to miejsce zaprojektowane z myślą o zdrowiu i dobrym samopoczuciu. Dla osób, które poczują komfort i energię tego miejsca.&lt;br/&gt;W urządzenie całej nieruchomości włożono serce i mnóstwo pracy - zadbano o detale, przemyślano każdy element. Całość to efekt pasji i zaangażowania.&lt;br/&gt;Serdecznie polecamy!&lt;br/&gt;&lt;br/&gt;KONTAKT&lt;br/&gt;Imię i nazwisko: Marta Janusz, licencja PFRN nr 28634&lt;br/&gt;Telefon: 519 110 078&lt;br/&gt;Imię i nazwisko: Danuta Majchrzak, licencja PFRN nr 577&lt;br/&gt;Telefon: 501 769 166&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+
+</description>
+  </offer>
+</PACKAGE>
