@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>17/6093/OLS</signature>
+    <parameters>
+      <p id="1">17/6093/OLS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-06-26 13:38:26.0293</p>
+      <p id="5">2026-06-17 09:59:44.0652</p>
+      <p id="10">160000.0000</p>
+      <p id="13">3255.3400</p>
+      <p id="21">HANDLOWO-USŁUGOWY</p>
+      <p id="22">HANDLOWO-USŁUGOWY</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">LOKAL</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">OBORNICKI</p>
+      <p id="47">ROGOŹNO</p>
+      <p id="48">ROGOŹNO</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="62">0.0000</p>
+      <p id="93">37312.0000</p>
+      <p id="94">42416.0000</p>
+      <p id="121">WŁASNOŚĆ</p>
+      <p id="128">49.1500</p>
+      <p id="141">PLN</p>
+      <p id="153"></p>
+      <p id="158">KLIMATYZACJA</p>
+      <p id="159"></p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Wielka Poznańska</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Lokal usługowy 50 m² z klimatyzacją, parter</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>113469857.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113400251.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113400252.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113400253.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113400254.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>&lt;b&gt;Polecamy na sprzedaż lokal usługowy położony w centrum miasta Rogoźno, przy ulicy Wielkiej Poznańskiej.&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Nieruchomość o powierzchni ok. 50m²&lt;b&gt; &lt;/b&gt;zlokalizowana na parterze budynku. Oferta z rynku wtórnego, idealna pod działalność usługową, handlową, gastronomiczną czy biurową. Lokal z własna księgą wieczystą.&lt;br/&gt;&lt;br/&gt;Przestrzeń typu open space umożliwia swobodną aranżację według potrzeb prowadzonego biznesu. Lokalizacja na parterze zapewnia łatwy i bezpośredni dostęp dla klientów.&lt;br/&gt;&lt;br/&gt;W lokalu zamontowana jest klimatyzacja, pełniąca funkcję grzewczą oraz chłodzącą, dostarczająca komfort przez cały rok. Pomieszczenia z możliwością własnej aranżacji i wykończenia. Na zapleczu toaleta z umywalką.&lt;br/&gt;&lt;br/&gt;Lokal znajduje się w centrum miasta, z bezpośrednim wejściem do lokalu "z ulicy". Miejsca parkingowe, wzdłuż drogi.&lt;br/&gt;&lt;br/&gt;To propozycja dla inwestorów i przedsiębiorców poszukujących funkcjonalnej przestrzeni usługowo- handlowej, z dogodnym dostępem dla klientów. &lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;Osoba prowadząca ofertę:  Joanna Szewczak 506-54-11-11, Danuta Majchrzak 501-769-166.&lt;br/&gt;&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania. Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.
+
+</description>
+  </offer>
+</PACKAGE>
