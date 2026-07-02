@@ -14,12 +14,12 @@ const PAGE_URL = canonicalUrl("uslugi/wycena-nieruchomosci");
 export const metadata: Metadata = {
   title: "Wycena nieruchomości w Wągrowcu i Rogoźnie",
   description:
-    "Bezpłatna wycena mieszkań, domów, działek i lokali w Wągrowcu i Rogoźnie. 30 lat doświadczenia, znamy lokalny rynek. Podpowiemy realną wartość przed sprzedażą lub wynajmem.",
+    "Bezpłatna wycena mieszkań, domów, działek i lokali w Wągrowcu i Rogoźnie przy zleceniu nam sprzedaży lub wynajmu. 30 lat doświadczenia, znamy lokalny rynek.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     url: PAGE_URL,
     title: "Wycena nieruchomości w Wągrowcu i Rogoźnie — Dan-Dom",
-    description: "Bezpłatna wycena mieszkań, domów i działek. Realna wartość rynkowa przed sprzedażą lub wynajmem.",
+    description: "Bezpłatna wycena mieszkań, domów i działek przy zleceniu sprzedaży lub wynajmu. Realna wartość rynkowa.",
     images: [
       {
         url: "/hero-biuro.jpg",
@@ -40,7 +40,7 @@ const breadcrumb = breadcrumbJsonLd([
 const service = serviceJsonLd({
   name: "Wycena nieruchomości",
   description:
-    "Bezpłatna wstępna wycena mieszkań, domów, działek i lokali użytkowych. Analiza lokalnego rynku i rekomendacja ceny przed sprzedażą lub wynajmem.",
+    "Bezpłatna wstępna wycena mieszkań, domów, działek i lokali użytkowych przy zleceniu sprzedaży lub wynajmu. Analiza lokalnego rynku i rekomendacja ceny.",
   url: PAGE_URL,
   areaName: ["Wągrowiec", "Rogoźno"],
 });
@@ -49,7 +49,7 @@ const faq = faqJsonLd("wycena-nieruchomosci", [
   {
     question: "Czy wycena nieruchomości w Dan-Dom jest bezpłatna?",
     answer:
-      "Tak. Wstępna wycena jest całkowicie bezpłatna i bez zobowiązań. Przyjeżdżamy na oględziny, oceniamy stan i lokalizację, analizujemy aktualne transakcje rynkowe i przedstawiamy rekomendowaną cenę.",
+      "Wycena jest bezpłatna, jeśli zdecydujesz się na sprzedaż lub wynajem nieruchomości z naszym biurem. Przyjeżdżamy na oględziny, oceniamy stan i lokalizację, analizujemy aktualne transakcje rynkowe i przedstawiamy rekomendowaną cenę — bez dodatkowych kosztów w ramach zlecenia.",
   },
   {
     question: "Jak przebiega wycena nieruchomości?",
@@ -64,7 +64,7 @@ const faq = faqJsonLd("wycena-nieruchomosci", [
   {
     question: "Ile jest warta działka budowlana lub rolna?",
     answer:
-      "Ceny działek zależą od lokalizacji, uzbrojenia terenu i MPZP. Skontaktuj się z nami — bezpłatnie ocenimy wartość Twojej działki na podstawie aktualnych danych rynkowych.",
+      "Ceny działek zależą od lokalizacji, uzbrojenia terenu i MPZP. Skontaktuj się z nami — bezpłatnie ocenimy wartość Twojej działki na podstawie aktualnych danych rynkowych, jeśli zlecisz nam sprzedaż.",
   },
   {
     question: "Czy wycenicie nieruchomość poza Wągrowcem i Rogoźnem?",
@@ -105,13 +105,13 @@ export default function WycenaNieruchomosciPage() {
               <div>
                 <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-primary">Usługi</p>
                 <h1 className="mt-2 font-[var(--font-playfair)] text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-                  Wycena nieruchomości — bezpłatnie
+                  Wycena nieruchomości — bezpłatnie przy sprzedaży
                 </h1>
                 <div className="mt-4 h-0.5 w-14 rounded bg-brand-primary" />
                 <p className="mt-6 max-w-2xl text-base leading-7 text-zinc-600">
                   Zanim wystawisz nieruchomość na sprzedaż lub wynajem, dowiedz się, ile naprawdę jest warta.
-                  Bezpłatna wycena biura Dan-Dom uwzględnia aktualne transakcje na lokalnym rynku —
-                  nie tylko ceny ofertowe, lecz rzeczywiste ceny transakcyjne.
+                  Wycena biura Dan-Dom jest bezpłatna, gdy zlecisz nam sprzedaż lub wynajem, i uwzględnia
+                  aktualne transakcje na lokalnym rynku — nie tylko ceny ofertowe, lecz rzeczywiste ceny transakcyjne.
                 </p>
 
                 <div className="mt-8 flex flex-wrap gap-3">
@@ -128,7 +128,7 @@ export default function WycenaNieruchomosciPage() {
                     href="#kontakt"
                     className="inline-flex min-h-[44px] items-center gap-2 rounded-full border border-brand-primary px-6 py-2.5 text-sm font-semibold text-brand-primary transition-colors hover:bg-brand-primary/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary focus-visible:ring-offset-2"
                   >
-                    Zamów bezpłatną wycenę
+                    Umów wycenę
                   </a>
                 </div>
               </div>
@@ -176,7 +176,7 @@ export default function WycenaNieruchomosciPage() {
           <section className="rounded-2xl bg-white px-5 py-10 shadow-[0_4px_15px_rgba(0,0,0,0.05)] sm:px-10 sm:py-14 lg:px-14">
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-primary">Jak to działa</p>
             <h2 className="mt-2 font-[var(--font-playfair)] text-2xl font-bold text-black sm:text-3xl">
-              Jak wygląda bezpłatna wycena?
+              Jak wygląda bezpłatna wycena przy sprzedaży?
             </h2>
             <div className="mt-3 h-0.5 w-14 rounded bg-brand-primary" />
 
@@ -224,15 +224,15 @@ export default function WycenaNieruchomosciPage() {
 
           {/* ── Formularz ── */}
           <section id="kontakt" className="scroll-mt-20 rounded-2xl bg-white px-5 py-10 shadow-[0_4px_15px_rgba(0,0,0,0.05)] sm:px-10 sm:py-14 lg:px-14">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-primary">Bezpłatna wycena</p>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-primary">Bezpłatna wycena przy sprzedaży</p>
             <h2 className="mt-2 font-[var(--font-playfair)] text-2xl font-bold text-black sm:text-3xl">
-              Zamów bezpłatną wycenę nieruchomości
+              Umów wycenę nieruchomości
             </h2>
             <div className="mt-3 h-0.5 w-14 rounded bg-brand-primary" />
             <p className="mt-4 text-sm text-zinc-600">
               Zadzwoń na{" "}
               <a href="tel:501769166" className="font-semibold text-brand-primary hover:underline">501 769 166</a>
-              {" "}lub wypełnij formularz — oddzwonimy i ustalimy termin oględzin. Bezpłatnie i bez zobowiązań.
+              {" "}lub wypełnij formularz — oddzwonimy i ustalimy termin oględzin. Wycena jest bezpłatna, gdy zlecisz nam sprzedaż lub wynajem.
             </p>
             <ContactFormWithBoundary />
           </section>

@@ -14,13 +14,13 @@ const PAGE_URL = canonicalUrl("uslugi/sprzedaz-nieruchomosci");
 export const metadata: Metadata = {
   title: "Sprzedaż nieruchomości w Wągrowcu i Rogoźnie",
   description:
-    "Skuteczna sprzedaż mieszkań, domów, działek i lokali. Bezpłatna wycena, pomoc w formalnościach i negocjacjach. Biuro nieruchomości Dan-Dom — 30 lat doświadczenia w Wągrowcu i Rogoźnie.",
+    "Skuteczna sprzedaż mieszkań, domów, działek i lokali. Bezpłatna wycena przy zleceniu, pomoc w formalnościach i negocjacjach. Biuro nieruchomości Dan-Dom — 30 lat doświadczenia w Wągrowcu i Rogoźnie.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     url: PAGE_URL,
     title: "Sprzedaż nieruchomości w Wągrowcu i Rogoźnie — Dan-Dom",
     description:
-      "Skuteczna sprzedaż mieszkań, domów i działek. Bezpłatna wycena, pomoc w formalnościach i negocjacjach.",
+      "Skuteczna sprzedaż mieszkań, domów i działek. Bezpłatna wycena przy zleceniu, pomoc w formalnościach i negocjacjach.",
     images: [
       {
         url: "/hero-biuro.jpg",
@@ -55,7 +55,7 @@ const faq = faqJsonLd("sprzedaz-nieruchomosci", [
   {
     question: "Jak wycenić nieruchomość przed sprzedażą?",
     answer:
-      "Oferujemy bezpłatną wstępną wycenę nieruchomości. Przyjeżdżamy na oględziny, analizujemy aktualny rynek lokalny, porównujemy podobne transakcje i uwzględniamy stan oraz lokalizację nieruchomości.",
+      "Oferujemy bezpłatną wstępną wycenę nieruchomości przy zleceniu nam sprzedaży. Przyjeżdżamy na oględziny, analizujemy aktualny rynek lokalny, porównujemy podobne transakcje i uwzględniamy stan oraz lokalizację nieruchomości.",
   },
   {
     question: "Jakie dokumenty są potrzebne do sprzedaży nieruchomości?",
@@ -111,8 +111,8 @@ export default function SprzedazNieruchomosciPage() {
                 <div className="mt-4 h-0.5 w-14 rounded bg-brand-primary" />
                 <p className="mt-6 max-w-2xl text-base leading-7 text-zinc-600">
                   Skutecznie sprzedajemy mieszkania, domy, działki i lokale użytkowe. Działamy lokalnie — znamy rynek
-                  i mamy bazę aktywnych kupujących. Oferujemy bezpłatną wycenę, profesjonalny marketing i pełną
-                  obsługę formalności — od pierwszego kontaktu aż po podpisanie aktu notarialnego.
+                  i mamy bazę aktywnych kupujących. Przy zleceniu nam sprzedaży oferujemy bezpłatną wycenę, profesjonalny
+                  marketing i pełną obsługę formalności — od pierwszego kontaktu aż po podpisanie aktu notarialnego.
                 </p>
 
                 <div className="mt-8 flex flex-wrap gap-3">
@@ -163,7 +163,7 @@ export default function SprzedazNieruchomosciPage() {
               {[
                 {
                   step: "01",
-                  title: "Bezpłatna wycena",
+                  title: "Bezpłatna wycena przy zleceniu",
                   desc: "Przyjeżdżamy, oceniamy stan i lokalizację nieruchomości, analizujemy lokalny rynek i proponujemy optymalną cenę wywoławczą.",
                 },
                 {
@@ -207,7 +207,7 @@ export default function SprzedazNieruchomosciPage() {
                 },
                 {
                   problem: "Nie wiem, ile warta jest moja nieruchomość",
-                  solution: "Bezpłatna wycena na miejscu. Znamy lokalny rynek — ceny transakcyjne, a nie tylko ofertowe.",
+                  solution: "Bezpłatna wycena na miejscu w ramach zlecenia sprzedaży. Znamy lokalny rynek — ceny transakcyjne, a nie tylko ofertowe.",
                 },
                 {
                   problem: "Formalności i dokumenty przytłaczają",
@@ -268,7 +268,7 @@ export default function SprzedazNieruchomosciPage() {
             <p className="mt-4 text-sm text-zinc-600">
               Zadzwoń na{" "}
               <a href="tel:501769166" className="font-semibold text-brand-primary hover:underline">501 769 166</a>
-              {" "}lub wypełnij formularz — oddzwonimy i ustalimy termin bezpłatnych oględzin.
+              {" "}lub wypełnij formularz — oddzwonimy i ustalimy termin oględzin. Wycena jest bezpłatna przy zleceniu nam sprzedaży.
             </p>
             <ContactFormWithBoundary />
           </section>

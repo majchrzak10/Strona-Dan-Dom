@@ -27,7 +27,7 @@ const homeFaqJsonLd = faqJsonLd("home", [
   {
     question: "Ile kosztuje mieszkanie w Wągrowcu?",
     answer:
-      "Na rynku wtórnym ceny wahają się od 4500 do 7000 zł/m², w zależności od lokalizacji, stanu technicznego i piętra. Biuro Dan-Dom oferuje bezpłatną wycenę — zadzwoń: 501 769 166.",
+      "Na rynku wtórnym ceny wahają się od 4500 do 7000 zł/m², w zależności od lokalizacji, stanu technicznego i piętra. Biuro Dan-Dom oferuje bezpłatną wycenę przy zleceniu sprzedaży — zadzwoń: 501 769 166.",
   },
   {
     question: "Jak długo trwa sprzedaż nieruchomości w Wągrowcu?",
@@ -42,12 +42,12 @@ const homeFaqJsonLd = faqJsonLd("home", [
   {
     question: "Co zawiera usługa pośrednictwa w sprzedaży nieruchomości?",
     answer:
-      "Bezpłatna wycena, profesjonalne zdjęcia, publikacja na Otodom, OLX i Gratka, organizacja prezentacji, negocjacje oraz wsparcie przy dokumentach i umowie notarialnej.",
+      "Bezpłatna wycena przy zleceniu sprzedaży, profesjonalne zdjęcia, publikacja na Otodom, OLX i Gratka, organizacja prezentacji, negocjacje oraz wsparcie przy dokumentach i umowie notarialnej.",
   },
   {
     question: "Jak zamówić bezpłatną wycenę nieruchomości?",
     answer:
-      "Zadzwoń pod 501 769 166 lub napisz na biuro@dan-dom.pl. Agent umówi się na oględziny i przedstawi wycenę w ciągu kilku dni — bez żadnych zobowiązań.",
+      "Zadzwoń pod 501 769 166 lub napisz na biuro@dan-dom.pl. Agent umówi się na oględziny i przedstawi wycenę w ciągu kilku dni. Wycena jest bezpłatna, jeśli zdecydujesz się na sprzedaż lub wynajem z naszym biurem.",
   },
   {
     question: "Ile wynosi prowizja biura nieruchomości Dan-Dom?",

@@ -33,7 +33,7 @@ const faq = faqJsonLd("rogozno", [
   {
     question: "Ile kosztują nieruchomości w Rogoźnie?",
     answer:
-      "Ceny nieruchomości w Rogoźnie są niższe niż w Poznaniu — domy od 300 000 zł, mieszkania od 4000 zł/m². Atrakcyjna lokalizacja 50 km od Poznania przyciąga coraz więcej kupujących. Zadzwoń po bezpłatną wycenę: 506 541 111.",
+      "Ceny nieruchomości w Rogoźnie są niższe niż w Poznaniu — domy od 300 000 zł, mieszkania od 4000 zł/m². Atrakcyjna lokalizacja 50 km od Poznania przyciąga coraz więcej kupujących. Zadzwoń po bezpłatną wycenę przy zleceniu sprzedaży: 506 541 111.",
   },
   {
     question: "Jak sprzedać dom lub mieszkanie w Rogoźnie?",

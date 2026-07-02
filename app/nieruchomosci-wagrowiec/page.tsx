@@ -33,7 +33,7 @@ const faq = faqJsonLd("wagrowiec", [
   {
     question: "Ile kosztują nieruchomości w Wągrowcu?",
     answer:
-      "Ceny mieszkań na rynku wtórnym w Wągrowcu wahają się od 4500 do 7000 zł/m². Domy jednorodzinne — od 350 000 zł wzwyż. Działki budowlane od 50 zł/m². Oferujemy bezpłatną wycenę — zadzwoń: 501 769 166.",
+      "Ceny mieszkań na rynku wtórnym w Wągrowcu wahają się od 4500 do 7000 zł/m². Domy jednorodzinne — od 350 000 zł wzwyż. Działki budowlane od 50 zł/m². Oferujemy bezpłatną wycenę przy zleceniu sprzedaży — zadzwoń: 501 769 166.",
   },
   {
     question: "Jak sprzedać nieruchomość w Wągrowcu?",

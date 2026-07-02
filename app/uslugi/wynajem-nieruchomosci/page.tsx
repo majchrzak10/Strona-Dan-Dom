@@ -14,7 +14,7 @@ const PAGE_URL = canonicalUrl("uslugi/wynajem-nieruchomosci");
 export const metadata: Metadata = {
   title: "Wynajem nieruchomości w Wągrowcu i Rogoźnie",
   description:
-    "Wynajem mieszkań, domów i lokali użytkowych. Bezpłatna wycena czynszu, weryfikacja najemcy, bezpieczna umowa najmu. Biuro nieruchomości Dan-Dom — 30 lat doświadczenia w Wągrowcu i Rogoźnie.",
+    "Wynajem mieszkań, domów i lokali użytkowych. Bezpłatna wycena czynszu przy zleceniu wynajmu, weryfikacja najemcy, bezpieczna umowa najmu. Biuro nieruchomości Dan-Dom — 30 lat doświadczenia w Wągrowcu i Rogoźnie.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     url: PAGE_URL,
@@ -59,7 +59,7 @@ const faq = faqJsonLd("wynajem-nieruchomosci", [
   {
     question: "Ile kosztuje wynajem mieszkania przez biuro?",
     answer:
-      "Stawki czynszu zależą od metrażu, stanu i lokalizacji. Bezpłatnie wycenimy optymalny czynsz rynkowy dla Twojej nieruchomości — zadzwoń lub napisz.",
+      "Stawki czynszu zależą od metrażu, stanu i lokalizacji. Bezpłatnie wycenimy optymalny czynsz rynkowy dla Twojej nieruchomości, jeśli zlecisz nam wynajem — zadzwoń lub napisz.",
   },
   {
     question: "Czy mogę wynająć lokal użytkowy przez Dan-Dom?",
@@ -110,8 +110,8 @@ export default function WynajemNieruchomosciPage() {
                 <div className="mt-4 h-0.5 w-14 rounded bg-brand-primary" />
                 <p className="mt-6 max-w-2xl text-base leading-7 text-zinc-600">
                   Pomagamy właścicielom wynajmować mieszkania, domy i lokale użytkowe szybko i bezpiecznie.
-                  Bezpłatnie wyceniamy czynsz rynkowy, prowadzimy marketing, weryfikujemy najemców i przygotowujemy
-                  umowę najmu chroniącą Twoje interesy.
+                  Przy zleceniu nam wynajmu bezpłatnie wyceniamy czynsz rynkowy, prowadzimy marketing, weryfikujemy
+                  najemców i przygotowujemy umowę najmu chroniącą Twoje interesy.
                 </p>
 
                 <div className="mt-8 flex flex-wrap gap-3">
@@ -217,7 +217,7 @@ export default function WynajemNieruchomosciPage() {
             <p className="mt-4 text-sm text-zinc-600">
               Zadzwoń na{" "}
               <a href="tel:501769166" className="font-semibold text-brand-primary hover:underline">501 769 166</a>
-              {" "}lub napisz — bezpłatnie wycenimy czynsz i opowiemy, jak szybko znaleźć dobrego najemcę.
+              {" "}lub napisz — bezpłatnie wycenimy czynsz w ramach zlecenia wynajmu i opowiemy, jak szybko znaleźć dobrego najemcę.
             </p>
             <ContactFormWithBoundary />
           </section>
