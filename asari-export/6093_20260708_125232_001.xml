@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>310/6093/ODS</signature>
+    <parameters>
+      <p id="1">310/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-07-08 12:10:43.0528</p>
+      <p id="5">2026-05-20 12:55:58.0390</p>
+      <p id="10">830000.0000</p>
+      <p id="13">5000.0000</p>
+      <p id="20">WOLNO STOJĄCY</p>
+      <p id="23">ODDZIELNA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39">KAN. MIEJSKA</p>
+      <p id="41">UTWARDZONA</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">WĄGROWIECKI</p>
+      <p id="47">WĄGROWIEC</p>
+      <p id="48">WĄGROWIEC</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="53"></p>
+      <p id="54">PŁASKIE</p>
+      <p id="55">PROSTOKĄT</p>
+      <p id="58">144.0000</p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="61">707.0000</p>
+      <p id="63">1.0000</p>
+      <p id="66">WŁASNOŚĆ</p>
+      <p id="71">2011</p>
+      <p id="72">DOBRY</p>
+      <p id="77">DACHÓWKA CERAMICZNA</p>
+      <p id="78">PCV</p>
+      <p id="79">5.0000</p>
+      <p id="81">CZĘŚCIOWO</p>
+      <p id="83">2.0000</p>
+      <p id="87">PIEC GAZOWY</p>
+      <p id="89">C.O. GAZOWE,C.O. WŁASNE</p>
+      <p id="93">193307.0000</p>
+      <p id="94">220863.0000</p>
+      <p id="121">WŁASNOŚĆ</p>
+      <p id="128">166.0000</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157">ELEKTRYCZNA, WODNA, GAZOWA</p>
+      <p id="161">GARAŻ</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Bażantowa</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Przestronny dom wolnostojący – idealna cisza</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>112774858.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774873.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774874.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774875.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774869.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774884.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774865.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774867.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774877.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774880.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774879.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774871.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774882.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774859.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774860.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774886.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112774857.jpg</unique>
+        <status>0</status>
+        <weight>17</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112775754.jpg</unique>
+        <status>0</status>
+        <weight>18</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>112775755.jpg</unique>
+        <status>0</status>
+        <weight>19</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>W naszej ofercie komfortowy dom wolnostojący zlokalizowany w cichej, bezpiecznej i niezwykle cenionej dzielnicy Osada w Wagrowcu.To idealne połączenie prywatności, spokoju i szybkiego dostępu do infrastruktury miasta.&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania.&lt;br/&gt;Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;&lt;br/&gt;LOKALIZACJA:&lt;br/&gt;Miasto / dzielnica: Wągrowiec, Osada  - dogodny dojazd do centrum miasta.&lt;br/&gt;Okolica: kameralne osiedle, zabudowa jednorodzinna, bardzo spokojna dzielnica &lt;br/&gt;Dojazd: do samej posesji drogą polną (ok. 200 m), wcześniej drogą asfaltową&lt;br/&gt;&lt;br/&gt;SZCZEGÓŁY NIERUCHOMOŚCI&lt;br/&gt;&lt;br/&gt;Powierzchnia całkowita domu: 166 m²&lt;br/&gt;Rodzaj budynku: wolnostojący&lt;br/&gt;Rok budowy: 2010&lt;br/&gt;Stan nieruchomości: dobry&lt;br/&gt;Ogrzewanie: piec gazowy, dodatkowo kominek w salonie &lt;br/&gt;Koszty utrzymania: prąd, woda/ścieki, oraz 1 raz w roku podatek od nieruchomości&lt;br/&gt;&lt;br/&gt;UKŁAD I WYPOSAŻENIE&lt;br/&gt;PARTER: wiatrołap, holl, skrytka, kuchnia, duży salon z wyjściem na taras, łazienka, 1 pokój, pomieszczenie techniczne, oraz garaż&lt;br/&gt;PODDASZE: holl, 3 pokoje, garderoba, łazienka,&lt;br/&gt;Wyposażenie: umeblowanie do uzgodnienia&lt;br/&gt;&lt;br/&gt;DODATKOWE INFORMACJE&lt;br/&gt;Forma własności: pełna własność z księgą wieczystą&lt;br/&gt;Piwnica: nie&lt;br/&gt;Garaż: tak - w bryle budynku&lt;br/&gt;Miejsce parkingowe: na posesji, także przed domem&lt;br/&gt;Nieruchomość ogrodzona z bramą wjazdową&lt;br/&gt;Rozprowadzona instalacja alarmowa&lt;br/&gt;Dostępne od: terminy do uzgodnienia&lt;br/&gt;&lt;br/&gt;ATUTY NIERUCHOMOŚCI&lt;br/&gt;Bardzo korzystny projekt domu, pomieszczenia przestrzenne, układ funkcjonalny&lt;br/&gt;Położenie - miasto, ale w zacisznej i spokojnej okolicy - niekłopotliwe sąsiedztwo&lt;br/&gt;Dogodna komunikacja z centrum&lt;br/&gt;Z salonu wyjście na przyjemny zadaszony taras oraz zadbany ogród&lt;br/&gt;&lt;br/&gt;Uprzejmie prosimy o uszanowanie prywatności właściciela - zapraszamy do kontaktu z biurem.&lt;br/&gt;&lt;br/&gt;KONTAKT&lt;br/&gt;Imię i nazwisko: Danuta Majchrzak, licencja PFRN nr 577&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom&lt;br/&gt;
+
+</description>
+  </offer>
+</PACKAGE>
