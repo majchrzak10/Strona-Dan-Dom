@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>321/6093/ODS</signature>
+    <parameters>
+      <p id="1">321/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-07-10 14:12:06.0573</p>
+      <p id="5">2026-07-07 10:00:09.0508</p>
+      <p id="10">1390000.0000</p>
+      <p id="13">6155.8900</p>
+      <p id="20">WOLNO STOJĄCY</p>
+      <p id="23">ODDZIELNA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39">KAN. MIEJSKA</p>
+      <p id="41">ASFALTOWA</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">CHODZIESKI</p>
+      <p id="47">BUDZYŃ</p>
+      <p id="48">BUDZYŃ</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="53"></p>
+      <p id="58">225.8000</p>
+      <p id="59">MONITORING</p>
+      <p id="60">POLSKA</p>
+      <p id="61">2294.0000</p>
+      <p id="63">1.0000</p>
+      <p id="71">2002</p>
+      <p id="72">BARDZO WYSOKI STANDARD</p>
+      <p id="74">CEGŁA</p>
+      <p id="77">DACHÓWKA CERAMICZNA</p>
+      <p id="78">PCV</p>
+      <p id="79">6.0000</p>
+      <p id="83">2.0000</p>
+      <p id="87">POMPA CIEPŁA</p>
+      <p id="89">C.O. WŁASNE,KOMINEK,POMPA CIEPŁA</p>
+      <p id="93">322758.0000</p>
+      <p id="94">368767.0000</p>
+      <p id="128">225.8000</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157">ELEKTRYCZNA, WODNA, GAZOWA</p>
+      <p id="161"></p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Marszałka Piłsudskiego</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Perełka w Budzyniu Standard Premium,zero remontów!</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>113839232.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839022.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839023.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839036.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839026.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839035.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839025.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839037.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839027.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839031.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839029.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839030.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839033.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839034.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839040.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113839041.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113834489.jpg</unique>
+        <status>0</status>
+        <weight>17</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113834487.jpg</unique>
+        <status>0</status>
+        <weight>18</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>W naszej ofercie totalna perełka - dom w idealnym stanie!&lt;br/&gt;Ten piękny, niezwykle zadbany dom został wykończony z najwyższą dbałością o detale i nie wymaga absolutnie żadnych nakładów finansowych. Właściciele regularnie inwestowali w nowoczesne, ekologiczne rozwiązania i infrastrukturę premium, dzięki czemu budynek jest w pełni dofinansowany, energooszczędny i gotowy do zamieszkania od zaraz. Dom prowadzony z ogromną miłością, pasją i pedantyczną dbałością o każdy szczegół.&lt;br/&gt;To idealna propozycja dla osób, które cenią swój czas, komfort oraz perfekcyjny stan techniczny.&lt;br/&gt;&lt;br/&gt;KUPUJĄCY NIE UISZCZA PROWIZJI BIUROWEJ!&lt;br/&gt;&lt;br/&gt;LOKALIZACJA:&lt;br/&gt;Miasto / dzielnica: Budzyń - miasto, które od lat plasuje się w ścisłej czołówce najbogatszych samorządów w regionie. Słynie z luksusowych domów, zamożnych mieszkańców i doskonałych perspektyw. Oferowana nieruchomość/usługa znajduje się w tym wyjątkowym, elitarnym otoczeniu. &lt;br/&gt;To idealny wybór dla osób szukających najwyższego standardu życia i sąsiedztwa na poziomie premium.&lt;br/&gt;Okolica: osiedle domów jednorodzinnych&lt;br/&gt;Dojazd: drogą asfaltową, odległość 12 km od miasta powiatowego Chodzież, 60 km od Poznania&lt;br/&gt;&lt;br/&gt;SZCZEGÓŁY NIERUCHOMOŚCI&lt;br/&gt;Powierzchnia całkowita domu: 225,80 m²&lt;br/&gt;Powierzchnia użytkowa domu: 225,80 m²&lt;br/&gt;Rodzaj budynku: wolnostojący&lt;br/&gt;Rok budowy: 2002, sukcesywnie modernizowany&lt;br/&gt;Stan nieruchomości: idealny, nie wymaga praktycznie żadnych nakładów&lt;br/&gt;Ogrzewanie: pompa ciepła + panele fotowoltaiczne, kominek z nawiewem&lt;br/&gt;Koszty utrzymania: prąd, gaz, oraz woda/ścieki, 1 raz w roku podatek od nieruchomości&lt;br/&gt;Na posesji znajduje się także solidny drewniany budynek gospodarczy z wraz z częścią wypoczynkową&lt;br/&gt;&lt;br/&gt;UKŁAD I WYPOSAŻENIE&lt;br/&gt;PARTER (140,20 m²): wiatrołap, holl, pomieszczenie gospodarcze, pomieszczenie biurowe, kuchnia, jadalnia, duży salon z wyjściem na taras, pokój, łazienka, toaleta.&lt;br/&gt;PIĘTRO (85.60 m²): bardzo komfortowe szerokie dębowe schody, 3 sypialnie, garderoba, spora łazienka, holl&lt;br/&gt;&lt;br/&gt;Wyposażenie: w pełni umeblowana kuchnia także w sprzęt, pozostała cześć wyposażenia do uzgodnienia&lt;br/&gt;&lt;br/&gt;DODATKOWE INFORMACJE&lt;br/&gt;Forma własności: pełna własność z księgą wieczystą&lt;br/&gt;Piwnica: nie, schowek pod schodami&lt;br/&gt;Garaż: nie&lt;br/&gt;Miejsce parkingowe: spory podjazd na posesji - przygotowana stacja ładowania EV&lt;br/&gt;Nieruchomość ogrodzona z bramą wjazdową&lt;br/&gt;Fotowoltaika o sporej mocy - 10 kW&lt;br/&gt;Pompa ciepła &lt;br/&gt;Monitoring&lt;br/&gt;Przy nieruchomości światłowód&lt;br/&gt;Dostępne od: do uzgodnienia&lt;br/&gt;&lt;br/&gt;ATUTY NIERUCHOMOŚCI&lt;br/&gt;Położenie - niekłopotliwe sąsiedztwo&lt;br/&gt;Przepięknie urządzony i bardzo zadbany ogród, automatyczne nawadnianie&lt;br/&gt;Bardzo dobra komunikacja z miastem&lt;br/&gt;Bardzo ładne wnętrze domu, przytulne, harmonijne - nie wymaga nakładów&lt;br/&gt;&lt;br/&gt;KONTAKT&lt;br/&gt;Imię i nazwisko: Marta Janusz, licencja PFRN nr 28634&lt;br/&gt;Imię i nazwisko: Danuta Majchrzak, licencja PFRN nr 577&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom
+
+</description>
+  </offer>
+</PACKAGE>
