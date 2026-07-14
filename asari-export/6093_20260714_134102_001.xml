@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>314/6093/ODS</signature>
+    <parameters>
+      <p id="1">314/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-07-14 13:06:34.0317</p>
+      <p id="5">2026-05-29 10:37:49.0682</p>
+      <p id="10">490000.0000</p>
+      <p id="20">LETNISKOWY</p>
+      <p id="23">OTWARTA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39"></p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">OBORNICKI</p>
+      <p id="47">ROGOŹNO</p>
+      <p id="48">OWCZEGŁOWY</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52">LAS, JEZIORO</p>
+      <p id="53"></p>
+      <p id="58">35.0000</p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="61">2247.0000</p>
+      <p id="63">1.0000</p>
+      <p id="72">DOBRY</p>
+      <p id="77">BLACHA</p>
+      <p id="78"></p>
+      <p id="79">2.0000</p>
+      <p id="93">113190.0000</p>
+      <p id="94">129458.0000</p>
+      <p id="121">WŁASNOŚĆ</p>
+      <p id="128">35.0000</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157"></p>
+      <p id="161"></p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Leszczynowa</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Urokliwa działka rekreacyjna z domkiem i ogrodem</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>113895330.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020130.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020133.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020128.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020146.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020144.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319201.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319200.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319206.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319204.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319203.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319205.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319202.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113319211.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020158.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020162.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020137.jpg</unique>
+        <status>0</status>
+        <weight>17</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020138.jpg</unique>
+        <status>0</status>
+        <weight>18</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020139.jpg</unique>
+        <status>0</status>
+        <weight>19</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113020141.jpg</unique>
+        <status>0</status>
+        <weight>20</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Oferujemy Państwu na sprzedaż wyjątkowo urokliwą działkę z pięknie zagospodarowanym ogrodem i domkiem rekreacyjnym, zlokalizowaną w spokojnej miejscowości Owczegłowy.&lt;br/&gt;NAJWIĘKSZY ATUT: &lt;br/&gt;Działka o niezwykłym, magicznym klimacie, pełna dojrzałej zieleni, starodrzewu oraz urokliwych zakątków takich jak oczko wodne czy własna strefa warzywna z drewnianą szklarnią. To gotowe, niezwykle prywatne miejsce do wypoczynku z dala od miejskiego zgiełku.&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania. Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;CHARAKTERYSTYKA TERENU: &lt;br/&gt;Nieruchomość stanowi istną oazę spokoju. Na terenie znajduje się klimatyczny domek rekreacyjny o bryle typu "Brda" z nowym, czerwonym dachem i zadaszonym tarasem, idealnym na poranną kawę Posesja jest bogato i przemyślanie zagospodarowana:&lt;ul&gt;&lt;li&gt;romantyczne oczko wodne z liliami wodnymi&lt;/li&gt;&lt;li&gt;drewniane mostki oraz strefy relaksu z ławkami i stołami ukryte w cieniu drzew&lt;/li&gt;&lt;li&gt;drewniany budynek gospodarczy z uroczymi okiennicami, malowniczo porośnięty bluszczem&lt;/li&gt;&lt;li&gt;wydzielona strefa uprawna z podwyższonymi grządkami, krzewami owocowymi i dużą szklarnią&lt;/li&gt;&lt;/ul&gt;Teren jest urozmaicony, otoczony bogatą roślinnością (m.in. dorodne sosny, brzozy, dęby i gęste krzewy ozdobne), co zapewnia całkowitą prywatność. Działka objęta planem zagospodarowania przestrzennego, oznaczona symbolem ML - zabudowa letniskowa lub rekreacja indywidualna. &lt;br/&gt;Pełna własność z księgą wieczystą.&lt;br/&gt;&lt;br/&gt;KONTAKT Osoba prowadząca ofertę: Danuta Majchrzak 501 769 166.&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania! W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.
+
+</description>
+  </offer>
+  <offer>
+    <signature>323/6093/ODS</signature>
+    <parameters>
+      <p id="1">323/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-07-14 12:57:15.0794</p>
+      <p id="5">2026-07-13 09:39:56.0966</p>
+      <p id="10">1369000.0000</p>
+      <p id="13">5900.8600</p>
+      <p id="20">WOLNO STOJĄCY</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39">KAN. MIEJSKA</p>
+      <p id="41">KOSTKA BRUKOWA</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">CHODZIESKI</p>
+      <p id="47">BUDZYŃ</p>
+      <p id="48">BUDZYŃ</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="53"></p>
+      <p id="54">PŁASKIE</p>
+      <p id="55">PROSTOKĄT</p>
+      <p id="58">229.0000</p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="61">800.0000</p>
+      <p id="63">1.0000</p>
+      <p id="71">1994</p>
+      <p id="72">WYSOKI STANDARD</p>
+      <p id="74">CEGŁA</p>
+      <p id="78">PCV</p>
+      <p id="79">7.0000</p>
+      <p id="83">3.0000</p>
+      <p id="87">PIEC GAZOWY</p>
+      <p id="89">C.O. GAZOWE,C.O. WŁASNE,KOMINEK</p>
+      <p id="93">316239.0000</p>
+      <p id="94">361689.8000</p>
+      <p id="128">232.0000</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157">ELEKTRYCZNA, WODNA, GAZOWA</p>
+      <p id="161"></p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">os. Piaski</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Budzyń | Komfortowy i zadbany dom przy lesie</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>113878761.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878763.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878765.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878762.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878785.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878769.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878777.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878786.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878787.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878788.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878797.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878790.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878798.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878795.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878792.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878791.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878793.jpg</unique>
+        <status>0</status>
+        <weight>17</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878794.jpg</unique>
+        <status>0</status>
+        <weight>18</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113878796.jpg</unique>
+        <status>0</status>
+        <weight>19</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>113894405.jpg</unique>
+        <status>0</status>
+        <weight>20</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Kolejny dom w naszej ofercie - położony w unikatowej lokalizacji - na skraju lasu.&lt;br/&gt;Ten niezwykle zadbany dom od pierwszego wejrzenia urzeka dbałością o detale. Budynek był prowadzony z ogromną miłością, pasją i pedantyczną troską o każdy element, dzięki czemu jego stan ogólny jest bardzo dobry. Przestrzeń jest w pełni gotowa do zamieszkania od zaraz, co pozwala na natychmiastowe wprowadzenie się i komfortowe życie. Nieruchomość wymaga jedynie drobnych nakładów – głównie w obszarze łazienek, co daje nowym właścicielom idealną przestrzeń do stworzenia własnej, wymarzonej strefy relaksu. &lt;br/&gt;To doskonała propozycja dla osób szukających solidnego, bardzo zadbanego domu z potencjałem do personalizacji.&lt;br/&gt;&lt;br/&gt;LOKALIZACJA:&lt;br/&gt;Miasto / dzielnica: Budzyń - jest jednym z najlepiej rozwiniętych finansowo miast regionu, znanym z kameralnej atmosfery i wysokiego statusu życia jego mieszkańców. Osiedle Piaski to bezpieczna, zamożna okolica z piękną architekturą i pieknym lasem. Obecność w tym rejonie zapewnia naturalny dostęp do otoczenia o najwyższym standardzie. Propozycja ta idealnie odpowiada potrzebom osób szukających harmonii, prestiżu oraz doskonałego sąsiedztwa.&lt;br/&gt;Okolica: osiedle domów jednorodzinnych, tereny leśne&lt;br/&gt;Dojazd: drogą wybrukowaną, odległość 12 km od miasta powiatowego Chodzież, 60 km od Poznania, 13 km do Margonina &lt;br/&gt;&lt;br/&gt;SZCZEGÓŁY NIERUCHOMOŚCI&lt;br/&gt;Powierzchnia całkowita domu: 232 m²&lt;br/&gt;Powierzchnia użytkowa domu: 229 m²&lt;br/&gt;Rodzaj budynku: wolnostojący&lt;br/&gt;Rok budowy: 1994, sukcesywnie modernizowany&lt;br/&gt;Stan nieruchomości: bardzo dobry&lt;br/&gt;Ogrzewanie: piec gazowy + kominek w części dziennej domu&lt;br/&gt;Koszty utrzymania: prąd, gaz, oraz woda/ścieki, 1 raz w roku podatek od nieruchomości&lt;br/&gt;Na posesji znajduje się także solidny drewniany budynek gospodarczy z wraz z częścią wypoczynkową&lt;br/&gt;&lt;br/&gt;UKŁAD I WYPOSAŻENIE&lt;br/&gt;PARTER (155 m²): wiatrołap, holl, salon, 2 spore pokoje (jeden z prywatną łazienką), kuchnia z wyjściem na taras, jadalnia, łazienka.&lt;br/&gt;DOLNA KONDYGNACJA: (155 m² po podłodze, wysokość pomieszczeń 2,10 m): salon z otwartą kuchnią, 3 sypialnie, łazienka,, kotłownia, spora pralnia, korytarz.&lt;br/&gt;&lt;br/&gt;Wyposażenie: w pełni umeblowane obydwie kuchnie także w sprzęt, szafy w zabudowie, pozostała cześć wyposażenia do uzgodnienia&lt;br/&gt;&lt;br/&gt;DODATKOWE INFORMACJE&lt;br/&gt;Forma własności: pełna własność z księgą wieczystą&lt;br/&gt;Piwnica: schowek pod tarasem + poddasze nieużytkowe&lt;br/&gt;Garaż: nie&lt;br/&gt;Przyłączony światłowód&lt;br/&gt;Odkurzacz centralny&lt;br/&gt;Uzdatniacz wody&lt;br/&gt;Miejsce parkingowe: spory podjazd na posesji, także przed domem&lt;br/&gt;Nieruchomość ogrodzona z bramą wjazdową&lt;br/&gt;Dostępne od: do uzgodnienia&lt;br/&gt;&lt;br/&gt;ATUTY NIERUCHOMOŚCI&lt;br/&gt;Położenie - działka graniczy bezpośrednio z lasem. Ściana drzew tuż za płotem gwarantuje całkowitą prywatność, ciszę oraz czyste powietrze, a widok z okien zmienia się malowniczo wraz z porami roku. Las tuż za płotem sprawia, że poranny spacer na świeżym powietrzu zaczyna się dosłownie po przekroczeniu progu domu.&lt;br/&gt;Przepięknie urządzony i bardzo zadbany ogród, przestrzeń wokół domu zachwyca nienagannym stanem i dojrzałą zielenią. Dzięki systemowi podlewania, ogród zachowuje perfekcyjny wygląd bez większego wysiłku.&lt;br/&gt;Bardzo dobra komunikacja z miastem&lt;br/&gt;Dom łączy solidność tradycyjnej, grubej konstrukcji z lat 90. z komfortem nowoczesnych rozwiązań. Dzięki regularnym modernizacjom budynek jest w pełni doinwestowany i nie wymaga większych prac strukturalnych.&lt;br/&gt;&lt;br/&gt;KONTAKT&lt;br/&gt;Imię i nazwisko: Marta Janusz, licencja PFRN nr 28634&lt;br/&gt;Imię i nazwisko: Danuta Majchrzak, licencja PFRN nr 577&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom
+
+</description>
+  </offer>
+</PACKAGE>
