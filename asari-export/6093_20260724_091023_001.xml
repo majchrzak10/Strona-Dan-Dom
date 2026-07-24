@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers>
+      <signature>316/6093/ODS</signature>
+    </offers>
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>325/6093/ODS</signature>
+    <parameters>
+      <p id="1">325/6093/ODS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-07-24 09:07:15.0810</p>
+      <p id="5">2026-07-24 09:06:09.0810</p>
+      <p id="10">890000.0000</p>
+      <p id="13">7036.6900</p>
+      <p id="20">WOLNO STOJĄCY</p>
+      <p id="23">OTWARTA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DOM</p>
+      <p id="39">KAN. MIEJSKA</p>
+      <p id="41">ASFALTOWA</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">OBORNICKI</p>
+      <p id="47">ROGOŹNO</p>
+      <p id="48">ROGOŹNO</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="53"></p>
+      <p id="55">PROSTOKĄT</p>
+      <p id="58">100.4800</p>
+      <p id="59">MONITORING</p>
+      <p id="60">POLSKA</p>
+      <p id="61">1128.0000</p>
+      <p id="63">0.0000</p>
+      <p id="71">2013</p>
+      <p id="72">WYSOKI STANDARD</p>
+      <p id="74">YTONG</p>
+      <p id="78">PCV, Z ROLETAMI</p>
+      <p id="79">4.0000</p>
+      <p id="83">1.0000</p>
+      <p id="87">POMPA CIEPŁA</p>
+      <p id="89">C.O. WŁASNE,POMPA CIEPŁA</p>
+      <p id="93">205590.0000</p>
+      <p id="94">234515.0000</p>
+      <p id="128">126.4800</p>
+      <p id="141">PLN</p>
+      <p id="154"></p>
+      <p id="157">ELEKTRYCZNA, WODNA</p>
+      <p id="161">GARAŻ</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Nowa</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Połączenie idealne: Przestrzeń domu w centrum!</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>114117221.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117206.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117207.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117208.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117209.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117210.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117211.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117212.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117213.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117214.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117215.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117216.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117217.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117218.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117219.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117220.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117222.jpg</unique>
+        <status>0</status>
+        <weight>17</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117223.jpg</unique>
+        <status>0</status>
+        <weight>18</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114117224.jpg</unique>
+        <status>0</status>
+        <weight>19</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>W naszej ofercie kolejny piękny dom, położony w samym sercu miasta.&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania.&lt;br/&gt;Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;&lt;br/&gt;LOKALIZACJA:&lt;br/&gt;Miasto / dzielnica: Rogoźno, centrum miasta&lt;br/&gt;Okolica: w pobliżu zabudowania jednorodzinne, oraz osiedle bloków mieszkalnych&lt;br/&gt;&lt;br/&gt;SZCZEGÓŁY NIERUCHOMOŚCI&lt;br/&gt;Powierzchnia całkowita domu: 126,48 m²&lt;br/&gt;Powierzchnia użytkowa domu: 100,48 m²&lt;br/&gt;Rodzaj budynku mieszkalnego: wolnostojący&lt;br/&gt;Rok budowy: 2013&lt;br/&gt;Stan nieruchomości: bardzo dobry, nie wymaga praktycznie żadnych nakładów&lt;br/&gt;Ogrzewanie: pompa ciepła (ogrzewanie podłogowe, w pokojach grzejniki wodne) + instalacja fotowoltaiczna&lt;br/&gt;Ogrzanie wody: pompa ciepła&lt;br/&gt;Koszty utrzymania: prąd, woda/ścieki, oraz 1 raz w roku podatek od nieruchomości&lt;br/&gt;Na posesji wzniesiony także porządny budynek gospodarczy o pow. ok. 75 m2, który z powodzeniem może posłużyć do prowadzenia nieuciążliwej działalności gospodarczej.&lt;br/&gt;&lt;br/&gt;UKŁAD I WYPOSAŻENIE&lt;br/&gt;PARTER: wiatrołap, korytarz, spiżarka, kotłownia, garderoba, łazienka, pokój dzienny, otwarta kuchnia, 3 sypialnie, oraz garaż. &lt;br/&gt;Poddasze nieużytkowe - funkcjonalny schowek na rzadko używane rzeczy - ok. 30 m2.&lt;br/&gt;Wyposażenie: niemal nowa umeblowana kuchnia także w sprzęt, pozostałe umeblowanie i wyposażenie domu do uzgodnienia&lt;br/&gt;&lt;br/&gt;DODATKOWE INFORMACJE&lt;br/&gt;Forma własności: pełna własność z księgą wieczystą&lt;br/&gt;Piwnica: nie&lt;br/&gt;Garaż: tak - w bryle budynku&lt;br/&gt;Udogodnienia: klimatyzacja, rozprowadzona instalacja monitoringu, internet mobilny&lt;br/&gt;Miejsce parkingowe: na posesji, także przed domem&lt;br/&gt;Nieruchomość ogrodzona z bramą wjazdową&lt;br/&gt;Dostępne od: terminy do uzgodnienia&lt;br/&gt;&lt;br/&gt;ATUTY NIERUCHOMOŚCI&lt;br/&gt;Bardzo korzystny projekt domu, pomieszczenia przestrzenne, układ funkcjonalny&lt;br/&gt;Położenie w centrum miasta, bardzo dogodne - ścisłe centrum, w sąsiedztwie, sklepy, szkoły, przedszkola, oraz wszystko co potrzebne do komfortowego życia&lt;br/&gt;Wnętrze domu przytulne, harmonijne praktycznie nie wymaga nakładów&lt;br/&gt;Z salonu wyjście na przyjemny zadaszony taras oraz zadbany ogród z pięknymi nasadzeniami oraz automatycznym nawodnieniem &lt;br/&gt;&lt;br/&gt;Uprzejmie prosimy o uszanowanie prywatności właściciela - zapraszamy do kontaktu z biurem.&lt;br/&gt;&lt;br/&gt;KONTAKT&lt;br/&gt;Imię i nazwisko: Marta Janusz, licencja PFRN nr 28634&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom&lt;br/&gt;
+
+</description>
+  </offer>
+</PACKAGE>
