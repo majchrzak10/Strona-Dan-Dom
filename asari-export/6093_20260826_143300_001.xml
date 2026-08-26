@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>447/6093/OMS</signature>
+    <parameters>
+      <p id="1">447/6093/OMS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-08-26 14:30:56.0913</p>
+      <p id="5">2026-08-25 15:30:25.0303</p>
+      <p id="10">352944.0000</p>
+      <p id="13">7200.0000</p>
+      <p id="19">2-POKOJOWE</p>
+      <p id="23">ANEKS KUCHENNY</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">MIESZKANIE</p>
+      <p id="38"></p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">WĄGROWIECKI</p>
+      <p id="47">WĄGROWIEC</p>
+      <p id="48">WĄGROWIEC</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="59">DOMOFON</p>
+      <p id="60">POLSKA</p>
+      <p id="62">1.0000</p>
+      <p id="63">3.0000</p>
+      <p id="70">BLOK</p>
+      <p id="71">2026</p>
+      <p id="72">DO WYKOŃCZENIA</p>
+      <p id="78">PCV</p>
+      <p id="79">2.0000</p>
+      <p id="82">GARAŻ</p>
+      <p id="83">1.0000</p>
+      <p id="86"></p>
+      <p id="89">C.O. GAZOWE,C.O. WŁASNE</p>
+      <p id="93">81988.8900</p>
+      <p id="94">95647.8200</p>
+      <p id="128">49.0200</p>
+      <p id="141">PLN</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">PIERWOTNY</p>
+      <p id="300">Piaskowa</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="350">https://www.youtube.com/shorts/0KQ33l-0GrU</p>
+      <p id="489">TAK</p>
+      <p id="491">Stan deweloperski 2 i 3 pokoje Piaskowa Wągrowiec</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>114894568.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894569.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894570.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894571.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894572.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894574.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894575.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894576.jpg</unique>
+        <status>0</status>
+        <weight>8</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894577.jpg</unique>
+        <status>0</status>
+        <weight>9</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894578.jpg</unique>
+        <status>0</status>
+        <weight>10</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894580.jpg</unique>
+        <status>0</status>
+        <weight>11</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894581.jpg</unique>
+        <status>0</status>
+        <weight>12</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894582.jpg</unique>
+        <status>0</status>
+        <weight>13</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894583.jpg</unique>
+        <status>0</status>
+        <weight>14</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894585.jpg</unique>
+        <status>0</status>
+        <weight>15</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894586.jpg</unique>
+        <status>0</status>
+        <weight>16</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894587.jpg</unique>
+        <status>0</status>
+        <weight>17</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894588.jpg</unique>
+        <status>0</status>
+        <weight>18</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894589.jpg</unique>
+        <status>0</status>
+        <weight>19</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114894590.jpg</unique>
+        <status>0</status>
+        <weight>20</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Na sprzedaż mieszkania deweloperskie w Wągrowcu, przy ulicy Piaskowej 36C — w spokojnej części miasta, z bezpośrednim sąsiedztwem terenów zielonych i lasu, a jednocześnie w istniejącej, uzbrojonej zabudowie mieszkaniowej.&lt;br/&gt;Budynek ma 4 kondygnacje (parter + 3 piętra, bez windy). W ofercie pozostało 13 mieszkań o powierzchni od 42,54 m² do 56,82 m² — dwu- i trzypokojowych, na wszystkich kondygnacjach od parteru po III piętro.&lt;br/&gt;Każdy lokal posiada komórkę lokatorską (ok. 4,33–4,55 m², według wykazu dewelopera), której koszt wliczony jest w cenę.&lt;br/&gt;Mieszkania (poza lokalem nr 2 na parterze) posiadają balkony o powierzchni 3,48–3,60 m². Ogrzewane są własnym piecem gazowym dwufunkcyjnym dla każdego lokalu. Budowa została zakończona, budynek został oddany do użytku — lokale dostępne od ręki.&lt;br/&gt;Na terenie osiedla wykonane są utwardzone miejsca parkingowe (w tym miejsce dla osoby niepełnosprawnej). Garaże i przypisanie konkretnego stanowiska — do ustalenia w biurze (deweloper na stronie 36C publikuje cennik mieszkań i komórek, bez osobnej tabeli garaży).&lt;br/&gt;Cennik i wykaz wolnych mieszkań dostępny w załącznikach do ogłoszenia.&lt;br/&gt;UKŁADY MIESZKAŃ&lt;br/&gt;M-2 — 42,54 m², 2 pokoje: pokój z aneksem kuchennym, sypialnia, łazienka, przedpokój&lt;br/&gt;M-3 — 48,57–49,24 m², 2 pokoje: pokój z aneksem kuchennym ok. 27 m², sypialnia 11,5 m², łazienka, przedpokój&lt;br/&gt;M-4 — 56,12–56,82 m², 3 pokoje: pokój z aneksem kuchennym ok. 25 m², dwie sypialnie (8,22 m² i 11,15 m²), łazienka, przedpokój&lt;br/&gt;Ceny od 306 288 zł. Stawka 6 900–7 200 zł/m² w zależności od kondygnacji (parter 7 000 zł/m², I i II piętro 7 200 zł/m², III piętro 6 900 zł/m²).&lt;br/&gt;Każdy lokal oferowany przez dewelopera jest wykonany w standardzie:&lt;ul&gt;&lt;li&gt;Instalacje elektryczne:&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;rozprowadzone przewody podtynkowe zakończone gniazdkami i włącznikami (punkty oświetleniowe i energetyczne)&lt;/li&gt;&lt;li&gt;domofon&lt;/li&gt;&lt;li&gt;dla telefonii i TV (naziemna + światłowód)&lt;/li&gt;&lt;li&gt;licznik poboru energii&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Instalacje sanitarne:&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;piony i podejścia kanalizacyjne&lt;/li&gt;&lt;li&gt;podejścia wody bez armatury&lt;/li&gt;&lt;li&gt;licznik poboru wody&lt;/li&gt;&lt;li&gt;podejście gazu, piec dwufunkcyjny, grzejniki&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Wykończenie:&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;stolarka okienna PCV, rolety zewnętrzne&lt;/li&gt;&lt;li&gt;drzwi wejściowe do mieszkań&lt;/li&gt;&lt;li&gt;parapety zewnętrzne, stalowe&lt;/li&gt;&lt;li&gt;parapety wewnętrzne: PCV&lt;/li&gt;&lt;li&gt;tynki gipsowe, wylewki na podłogach&lt;/li&gt;&lt;/ul&gt;Klatki schodowe wykończone: płytki na posadzkach i schodach, balustrady, oświetlenie, skrzynki na listy.&lt;br/&gt;Dookoła budynków wykonana infrastruktura: utwardzone miejsca parkingowe (w tym miejsce dla osoby niepełnosprawnej), chodniki, oświetlenie, tereny zielone, wiata na odpady.&lt;br/&gt;LOKALIZACJA&lt;br/&gt;Miasto / dzielnica: Wągrowiec, ul. Piaskowa 36C&lt;br/&gt;Okolica: zabudowa mieszkaniowa wielorodzinna, sąsiedztwo lasu i terenów zielonych&lt;br/&gt;Dojazd: dogodną drogą asfaltową, blisko wyjazd z miasta&lt;br/&gt;W niedalekiej odległości sklepy, przystanek komunikacji, szkoła i przedszkole.&lt;br/&gt;DODATKOWE INFORMACJE&lt;br/&gt;Forma własności: pełna własność, lokal stanowi odrębną nieruchomość z księgą wieczystą&lt;br/&gt;Komórka lokatorska: przynależna do lokalu, w cenie (ok. 4,33–4,55 m²)&lt;br/&gt;Miejsca postojowe / garaże: parking naziemny na osiedlu, w tym stanowisko dla osoby niepełnosprawnej; garaż lub konkretne miejsce — w biurze&lt;br/&gt;Dostępne od: natychmiast&lt;br/&gt;Kupujący zwolniony jest z podatku PCC (2%) oraz z wynagrodzenia biura.&lt;br/&gt;Na obecnym etapie istnieje możliwość dokonania rezerwacji w naszym biurze.&lt;br/&gt;Współpraca z nami — kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania.&lt;br/&gt;Szczegóły dotyczące mieszkań w załączonych do ogłoszenia zdjęciach i rzutach oraz w siedzibie Biura Nieruchomości Dan-Dom.&lt;br/&gt;Zapraszamy serdecznie do kontaktu:&lt;br/&gt;Danuta Majchrzak: licencja PRFN&lt;br/&gt;Marta Janusz: licencja PRFN&lt;br/&gt;www.dan-dom.pl&lt;br/&gt;https://www.facebook.com/biurodandom
+
+</description>
+  </offer>
+  <offer>
+    <signature>258/6093/OGS</signature>
+    <parameters>
+      <p id="1">258/6093/OGS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-08-26 14:21:30.0919</p>
+      <p id="5">2026-08-26 11:58:55.0639</p>
+      <p id="10">220000.0000</p>
+      <p id="13">183.9500</p>
+      <p id="18">BUDOWLANA</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">DZIAŁKA</p>
+      <p id="39">WODA MIEJSKA W DRODZE, KAN. MIEJSKA W DRODZE</p>
+      <p id="41">GRUNTOWA</p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">WĄGROWIECKI</p>
+      <p id="47">WĄGROWIEC</p>
+      <p id="48">KALISKA</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="53"></p>
+      <p id="54">PŁASKIE</p>
+      <p id="55">NIEREGULARNY</p>
+      <p id="60">POLSKA</p>
+      <p id="61">1196.0000</p>
+      <p id="89"></p>
+      <p id="93">51106.0000</p>
+      <p id="94">59620.0000</p>
+      <p id="141">PLN</p>
+      <p id="155">BRAK GAZU, PRĄD W DRODZE</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Unikat | działka przy lesie Kaliska Wągrowiec</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>114914960.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114914961.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114914963.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114914815.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114914816.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114914829.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>114914830.jpg</unique>
+        <status>0</status>
+        <weight>7</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Polecamy Państwu na sprzedaż unikatową działkę położoną tuż pod lasem na obrzeżach miasta Wągrowca - obręb Kaliska.&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania.&lt;br/&gt;Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;&lt;br/&gt;LOKALIZACJA:&lt;br/&gt;Miasto / dzielnica: Kaliska, gm. Wągrowiec, 2 km od miasta&lt;br/&gt;Okolica: z działką graniczy las - unikatowe położenie, dookoła zabudowa jednorodzinna, bardzo spokojne i rozwijające się osiedle&lt;br/&gt;Dojazd: drogą polną&lt;br/&gt;&lt;br/&gt;SZCZEGÓŁY NIERUCHOMOŚCI:&lt;br/&gt;Powierzchnia działki: 1196 m² &lt;br/&gt;Przeznaczenie w planie zagospodarowania: 13MN - teren zabudowy mieszkaniowej jednorodzinnej, zapisy planu w zdjęciach do ogłoszenia&lt;br/&gt;Działka niezabudowana, opłotowana w większości płotem panelowym, pozostaje do zamontowania brama wjazdowa&lt;br/&gt;Media: prąd, woda, kanalizacja w drodze przed działką.&lt;br/&gt;&lt;br/&gt;NAJWIĘKSZY ATUT:&lt;br/&gt;Działka objęta planem - gwarancja możliwości zabudowy, mniej formalności. Jest to bezpieczeństwo inwestycji: Miejscowy Plan Zagospodarowania Przestrzennego (MPZP) daje 100% pewności, co i gdzie można wybudować.&lt;br/&gt;Przepiękne położenie działki - bezpośrednie sąsiedztwo lasu gwarantuje brak nowej zabudowy tuż za oknem i ucieczkę od miejskiego zgiełku&lt;br/&gt;Użytki "Ls" na działce sąsiedniej potwierdza, że otacza Cię trwały las państwowy lub prywatny.&lt;br/&gt;Świetny dojazd do miasta, Kaliska to sypialnia Wągrowca. Miejscowość łączy w sobie urok podmiejskiego spokoju z pełną infrastrukturą aglomeracji.&lt;br/&gt;&lt;br/&gt;Zachęcamy Państwa do kontaktu i prezentacji.&lt;br/&gt;W razie dodatkowych pytań służymy pomocą.&lt;br/&gt;&lt;br/&gt;KONTAKT&lt;br/&gt;Imię i nazwisko: Marta Janusz, licencja PFRN nr 28634&lt;br/&gt;Imię i nazwisko: Danuta Majchrzak, licencja PFRN nr 577&lt;br/&gt;&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook:&lt;br/&gt;https://www.facebook.com/biurodandom
+
+</description>
+  </offer>
+</PACKAGE>
