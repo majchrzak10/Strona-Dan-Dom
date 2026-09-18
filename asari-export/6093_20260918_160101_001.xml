@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers />
+    <pictures />
+  </DELETE>
+  <offer>
+    <signature>454/6093/OMS</signature>
+    <parameters>
+      <p id="1">454/6093/OMS</p>
+      <p id="2">Biuro Nieruchomości DAN-DOM</p>
+      <p id="3">2026-09-18 15:52:34.0351</p>
+      <p id="5">2026-09-18 12:45:45.0029</p>
+      <p id="10">15000.0000</p>
+      <p id="13">1000.0000</p>
+      <p id="19">1-POKOJOWE</p>
+      <p id="26">AKTUALNA</p>
+      <p id="36">MIESZKANIE</p>
+      <p id="38"></p>
+      <p id="43">SPRZEDAŻ</p>
+      <p id="45">WIELKOPOLSKIE</p>
+      <p id="46">OBORNICKI</p>
+      <p id="47">ROGOŹNO</p>
+      <p id="48">ROGOŹNO</p>
+      <p id="49"></p>
+      <p id="51">0.0000</p>
+      <p id="52"></p>
+      <p id="59"></p>
+      <p id="60">POLSKA</p>
+      <p id="62">0.0000</p>
+      <p id="70">GARAŻ</p>
+      <p id="72">DOBRY</p>
+      <p id="78"></p>
+      <p id="79">1.0000</p>
+      <p id="82"></p>
+      <p id="86"></p>
+      <p id="93">3438.0000</p>
+      <p id="94">3948.0000</p>
+      <p id="128">15.0000</p>
+      <p id="141">PLN</p>
+      <p id="170">501-769-166</p>
+      <p id="171">dan-dom@wp.pl</p>
+      <p id="172">577</p>
+      <p id="174">34716.0000</p>
+      <p id="201"></p>
+      <p id="202"></p>
+      <p id="220">WTÓRNY</p>
+      <p id="300">Polna</p>
+      <p id="305">Danuta Majchrzak</p>
+      <p id="307">NIE</p>
+      <p id="340"></p>
+      <p id="341"></p>
+      <p id="342"></p>
+      <p id="343"></p>
+      <p id="344"></p>
+      <p id="345"></p>
+      <p id="349">NIE</p>
+      <p id="489">TAK</p>
+      <p id="491">Garaż w Rogoźnie</p>
+      <p id="492">NIE</p>
+    </parameters>
+    <pictures>
+      <picture>
+        <unique>115415325.jpg</unique>
+        <status>1</status>
+        <weight>1</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>115415328.jpg</unique>
+        <status>0</status>
+        <weight>2</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>115415376.jpg</unique>
+        <status>0</status>
+        <weight>3</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>115415326.jpg</unique>
+        <status>0</status>
+        <weight>4</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>115415327.jpg</unique>
+        <status>0</status>
+        <weight>5</weight>
+        <description />
+      </picture>
+      <picture>
+        <unique>115415329.jpg</unique>
+        <status>0</status>
+        <weight>6</weight>
+        <description />
+      </picture>
+    </pictures>
+    <description>Polecamy na sprzedaż blaszany garaż przy ulicy Polnej w Rogoźnie.&lt;br/&gt;Zlokalizowany jest zorganizowanym szeregu garaży, na gruncie Spółdzielni Mieszkaniowej. Posiada przyłącze elektryczne. Powierzchnia ok. 15m2. Dojazd drogą utwardzoną.&lt;br/&gt;&lt;br/&gt;Idealne miejsce na samochód lub dodatkową przestrzeń do przechowywania.&lt;br/&gt;&lt;br/&gt;Współpraca z nami - kupując tę nieruchomość, zyskujesz kompleksową opiekę prawną oraz pomoc w uzyskaniu finansowania. Informujemy, że usługa pośrednictwa jest płatna zgodnie z regulaminem biura.&lt;br/&gt;&lt;br/&gt;Serdecznie zachęcamy do oglądania!&lt;br/&gt;Osoba prowadząca ofertę:  Joanna Szewczak 506-54-11-11, Danuta Majchrzak 501-769-166.&lt;br/&gt;&lt;br/&gt;W razie dodatkowych pytań służymy pomocą, również przy uzyskaniu kredytu na zakup.&lt;br/&gt;Zachęcamy do korzystania z naszego profilu na Facebook: https://www.facebook.com/biurodandom
+
+</description>
+  </offer>
+</PACKAGE>
