@@ -1,10 +1,10 @@
 "use client";
 
-import { GoogleAnalytics } from "@next/third-parties/google";
 import Link from "next/link";
 import Script from "next/script";
-import { useCallback, useEffect, useState } from "react";
-import { trackEvent } from "@/lib/client/analytics";
+import { useCallback, useEffect, useLayoutEffect, useState } from "react";
+import GaRouteTracker from "@/components/analytics/GaRouteTracker";
+import { ensureGa4, trackEvent } from "@/lib/client/analytics";
 
 const STORAGE_KEY = "dan-dom-cookie-consent";
 const STORAGE_VERSION = 1;
@@ -51,15 +51,20 @@ export default function CookieConsentRoot({ gaId }: { gaId?: string }) {
 
   const acceptAnalytics = useCallback(() => {
     writeStored(true);
+    if (gaId) ensureGa4(gaId);
     setConsent("analytics");
     trackEvent("cookie_consent_update", { analytics_storage: "granted" });
-  }, []);
+  }, [gaId]);
 
   const essentialOnly = useCallback(() => {
     writeStored(false);
     setConsent("essential");
-    trackEvent("cookie_consent_update", { analytics_storage: "denied" });
   }, []);
+
+  useLayoutEffect(() => {
+    if (consent !== "analytics" || !gaId) return;
+    ensureGa4(gaId);
+  }, [consent, gaId]);
 
   useEffect(() => {
     if (consent !== "analytics") return;
@@ -102,7 +107,15 @@ export default function CookieConsentRoot({ gaId }: { gaId?: string }) {
     <>
       {consent === "analytics" ? (
         <>
-          {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
+          {gaId ? (
+            <>
+              <Script
+                src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+                strategy="afterInteractive"
+              />
+              <GaRouteTracker gaId={gaId} />
+            </>
+          ) : null}
           <Script
             src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_MEASUREMENT_ID}`}
             strategy="afterInteractive"
