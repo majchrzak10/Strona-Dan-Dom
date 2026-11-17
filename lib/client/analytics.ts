@@ -1,5 +1,7 @@
 "use client";
 
+import { CONSENT_DENIED, CONSENT_GRANTED } from "@/lib/consentMode";
+
 declare global {
   interface Window {
     dataLayer?: unknown[];
@@ -9,7 +11,7 @@ declare global {
 
 export type AnalyticsParams = Record<string, string | number | boolean | null | undefined>;
 
-let configuredId: string | null = null;
+const configuredIds = new Set<string>();
 
 function installGtagStub(): void {
   window.dataLayer = window.dataLayer || [];
@@ -21,15 +23,31 @@ function installGtagStub(): void {
   };
 }
 
-/** GA4 after cookie consent. Explicit grant — without it EEA hits stay non-consented. */
-export function ensureGa4(measurementId: string): void {
+/**
+ * Configures a Google tag (GA4 `G-…` or Google Ads `AW-…`).
+ * Consent is handled separately (Consent Mode v2 default in `app/layout.tsx`).
+ */
+export function configureGoogleTag(id: string): void {
   if (typeof window === "undefined") return;
-  if (configuredId === measurementId) return;
-  configuredId = measurementId;
+  if (configuredIds.has(id)) return;
   installGtagStub();
-  window.gtag?.("consent", "update", { analytics_storage: "granted" });
-  window.gtag?.("js", new Date());
-  window.gtag?.("config", measurementId);
+  if (configuredIds.size === 0) window.gtag?.("js", new Date());
+  configuredIds.add(id);
+  window.gtag?.("config", id);
+}
+
+/** User accepted analytics + ad measurement in the cookie banner. */
+export function grantConsent(): void {
+  if (typeof window === "undefined") return;
+  installGtagStub();
+  window.gtag?.("consent", "update", CONSENT_GRANTED);
+}
+
+/** User chose "essential only" — keep everything denied (cookieless pings only). */
+export function denyConsent(): void {
+  if (typeof window === "undefined") return;
+  installGtagStub();
+  window.gtag?.("consent", "update", CONSENT_DENIED);
 }
 
 export function trackEvent(name: string, params?: AnalyticsParams): void {

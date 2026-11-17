@@ -35,7 +35,7 @@ export default function PolitykaPrywatnosciPage() {
             Polityka prywatności
           </h1>
           <div className="mt-4 h-px w-28 bg-brand-primary/80" />
-          <p className="mt-4 text-sm text-zinc-500">Ostatnia aktualizacja: 25 marca 2026 r.</p>
+          <p className="mt-4 text-sm text-zinc-500">Ostatnia aktualizacja: 17 listopada 2026 r.</p>
 
           <div className="prose prose-sm prose-zinc mt-10 max-w-none text-zinc-800 prose-headings:font-semibold prose-headings:text-zinc-900 prose-a:text-burgundy prose-a:underline sm:prose-base lg:prose-lg">
             <p>
@@ -81,10 +81,18 @@ export default function PolitykaPrywatnosciPage() {
                 hostingu) — prawnie uzasadniony interes (art. 6 ust. 1 lit. f).
               </li>
               <li>
-                <strong>Analityka ruchu w serwisie (Google Analytics 4)</strong> — wyłącznie po
-                wyrażeniu przez Ciebie zgody na pliki cookies/analitykę w banerze cookies (art. 6
-                ust. 1 lit. a RODO). W każdej chwili możesz wycofać zgodę, bez wpływu na zgodność z
-                prawem przetwarzania przed jej cofnięciem.
+                <strong>Analityka ruchu i pomiar skuteczności reklam (Google Analytics 4, Google Ads)
+                z użyciem plików cookies</strong> — wyłącznie po wyrażeniu przez Ciebie zgody w banerze
+                cookies (art. 6 ust. 1 lit. a RODO). W każdej chwili możesz wycofać zgodę, bez wpływu
+                na zgodność z prawem przetwarzania przed jej cofnięciem.
+              </li>
+              <li>
+                <strong>Zagregowany pomiar bez plików cookies (tryb zgody Google)</strong> — gdy nie
+                wyrazisz zgody, tagi Google nie zapisują ani nie odczytują cookies analitycznych i
+                reklamowych, a do Google trafiają wyłącznie anonimowe sygnały (np. że nastąpiło
+                wyświetlenie strony lub kontakt), na podstawie których Google szacuje statystyki
+                w sposób zagregowany — prawnie uzasadniony interes w mierzeniu skuteczności serwisu
+                (art. 6 ust. 1 lit. f RODO).
               </li>
             </ul>
 
@@ -112,8 +120,9 @@ export default function PolitykaPrywatnosciPage() {
                 .
               </li>
               <li>
-                <strong>Google Ireland Limited</strong> (Google Analytics 4) — po wyrażeniu zgody
-                w banerze cookies. Dane mogą być przekazywane do USA w oparciu o decyzje Komisji
+                <strong>Google Ireland Limited</strong> (Google Analytics 4, Google Ads) — pełny pomiar
+                z cookies po wyrażeniu zgody w banerze; bez zgody wyłącznie anonimowe sygnały bez
+                cookies (tryb zgody Google). Dane mogą być przekazywane do USA w oparciu o decyzje Komisji
                 Europejskiej (np. Data Privacy Framework) lub inne mechanizmy zgodne z RODO.
               </li>
             </ul>
@@ -144,9 +153,11 @@ export default function PolitykaPrywatnosciPage() {
             <h2>6. Pliki cookies</h2>
             <p>
               Serwis może używać plików cookies niezbędnych do działania strony oraz — po
-              wyrażeniu zgody — cookies analitycznych (Google Analytics 4). Zgodę możesz wyrazić
-              lub odrzucić w banerze cookies; wybór „Tylko niezbędne” oznacza brak ładowania
-              analityki. Ustawienia przechowywane są lokalnie w Twojej przeglądarce (np.{" "}
+              wyrażeniu zgody — cookies analitycznych i reklamowych (Google Analytics 4, Google
+              Ads). Zgodę możesz wyrazić lub odrzucić w banerze cookies. Wybór „Tylko niezbędne”
+              oznacza, że nie zapisujemy cookies analitycznych ani reklamowych; tagi Google działają
+              wtedy w trybie bez cookies i przesyłają jedynie anonimowe sygnały. Nie używamy cookies
+              do personalizacji reklam (remarketingu). Ustawienia przechowywane są lokalnie w Twojej przeglądarce (np.{" "}
               <code className="rounded bg-zinc-100 px-1 text-sm">localStorage</code>). Usunięcie
               danych w przeglądarce spowoduje ponowne wyświetlenie banera.
             </p>
