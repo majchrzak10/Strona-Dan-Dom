@@ -36,6 +36,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.75,
     },
     {
+      url: canonicalUrl("czeste-pytania"),
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: canonicalUrl("polityka-prywatnosci"),
       lastModified: new Date(),
       changeFrequency: "yearly",
