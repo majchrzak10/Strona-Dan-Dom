@@ -42,7 +42,7 @@ const homeFaqJsonLd = faqJsonLd("home", [
   {
     question: "Co zawiera usługa pośrednictwa w sprzedaży nieruchomości?",
     answer:
-      "Bezpłatna wycena przy zleceniu sprzedaży, profesjonalne zdjęcia, publikacja na Otodom, OLX i Gratka, organizacja prezentacji, negocjacje oraz wsparcie przy dokumentach i umowie notarialnej.",
+      "Bezpłatna wycena przy zleceniu sprzedaży, profesjonalne zdjęcia, publikacja na Otodom, OLX i Nieruchomości-online, organizacja prezentacji, negocjacje oraz wsparcie przy dokumentach i umowie notarialnej.",
   },
   {
     question: "Jak zamówić bezpłatną wycenę nieruchomości?",
