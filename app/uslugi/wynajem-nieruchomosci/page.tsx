@@ -69,7 +69,7 @@ const faq = faqJsonLd("wynajem-nieruchomosci", [
   {
     question: "Co powinienem przygotować, żeby wynająć nieruchomość przez biuro?",
     answer:
-      "Potrzebny jest dokument potwierdzający własność (akt notarialny lub KW), aktualny stan techniczny lokalu i decyzja co do wyposażenia. Resztą zajmiemy się my.",
+      "Potrzebny jest dokument potwierdzający własność (akt notarialny lub KW), świadectwo charakterystyki energetycznej (obowiązkowe także przy najmie), aktualny stan techniczny lokalu i decyzja co do wyposażenia. Resztą zajmiemy się my.",
   },
 ]);
 

@@ -50,7 +50,7 @@ const faq = faqJsonLd("sprzedaz-nieruchomosci", [
   {
     question: "Ile trwa sprzedaż mieszkania lub domu przez biuro Dan-Dom?",
     answer:
-      "Czas sprzedaży zależy od rodzaju nieruchomości i ceny rynkowej. Przy właściwej wycenie i skutecznym marketingu większość nieruchomości sprzedajemy w ciągu 1–4 miesięcy.",
+      "Zwykle 3–6 miesięcy od wystawienia oferty do podpisania aktu notarialnego. Najwięcej czasu zajmuje znalezienie kupca — dobrze ustalona cena, komplet dokumentów i przygotowana oferta skracają ten czas.",
   },
   {
     question: "Jak wycenić nieruchomość przed sprzedażą?",
@@ -60,7 +60,7 @@ const faq = faqJsonLd("sprzedaz-nieruchomosci", [
   {
     question: "Jakie dokumenty są potrzebne do sprzedaży nieruchomości?",
     answer:
-      "Do sprzedaży potrzebny jest akt własności (akt notarialny lub wypis z KW), zaświadczenia o braku zaległości podatkowych i czynszowych oraz — przy spółdzielczym prawie — zaświadczenie ze spółdzielni. Pomożemy zebrać wszystkie niezbędne dokumenty.",
+      "Do sprzedaży potrzebny jest dokument własności (akt notarialny lub numer księgi wieczystej), świadectwo charakterystyki energetycznej, zaświadczenie o braku osób zameldowanych i o braku zaległości w opłatach oraz — przy spółdzielczym prawie — zaświadczenie ze spółdzielni. Pomożemy zebrać wszystkie niezbędne dokumenty.",
   },
   {
     question: "Czy biuro Dan-Dom pobiera prowizję przy sprzedaży?",
