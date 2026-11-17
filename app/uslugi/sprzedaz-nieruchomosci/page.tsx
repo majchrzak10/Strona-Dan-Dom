@@ -169,7 +169,7 @@ export default function SprzedazNieruchomosciPage() {
                 {
                   step: "02",
                   title: "Marketing i prezentacja",
-                  desc: "Profesjonalne zdjęcia, ogłoszenia na portalach (OtoDom, Gratka, własna strona) i aktywne poszukiwanie kupców z naszej bazy klientów.",
+                  desc: "Profesjonalne zdjęcia, ogłoszenia na portalach (Otodom, Nieruchomości-online, własna strona) i aktywne poszukiwanie kupców z naszej bazy klientów.",
                 },
                 {
                   step: "03",
