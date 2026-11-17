@@ -19,6 +19,7 @@ const SERVICE_LINKS = [
   { href: "/uslugi/sprzedaz-nieruchomosci/", label: "Sprzedaż nieruchomości" },
   { href: "/uslugi/wynajem-nieruchomosci/", label: "Wynajem nieruchomości" },
   { href: "/uslugi/wycena-nieruchomosci/", label: "Wycena nieruchomości" },
+  { href: "/czeste-pytania/", label: "Częste pytania" },
 ];
 
 export default function Navbar() {

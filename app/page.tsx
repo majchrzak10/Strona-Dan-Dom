@@ -32,7 +32,7 @@ const homeFaqJsonLd = faqJsonLd("home", [
   {
     question: "Jak długo trwa sprzedaż nieruchomości w Wągrowcu?",
     answer:
-      "Atrakcyjne mieszkania sprzedają się zwykle w 4–8 tygodni. Domy jednorodzinne wymagają 2–6 miesięcy. Dan-Dom, dzięki lokalnej bazie kupujących, skutecznie skraca ten czas.",
+      "Zwykle 3–6 miesięcy od wystawienia oferty do podpisania aktu notarialnego. Najwięcej czasu zajmuje znalezienie kupca — dobrze ustalona cena, komplet dokumentów i przygotowana oferta skracają ten czas.",
   },
   {
     question: "Czy Dan-Dom obsługuje Rogoźno?",
