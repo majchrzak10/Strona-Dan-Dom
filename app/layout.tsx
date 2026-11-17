@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import CookieConsentRoot from "@/components/CookieConsentRoot";
+import { CONSENT_DEFAULT_SCRIPT } from "@/lib/consentMode";
 import { Inter, Playfair_Display } from "next/font/google";
 import { organizationJsonLd } from "@/lib/seo/organizationJsonLd";
 import { canonicalUrl, SITE_INDEXABLE, SITE_URL } from "@/lib/seo/site";
@@ -109,6 +110,8 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col overflow-x-hidden bg-white text-black">
+        {/* Consent Mode v2: domyślna odmowa zgody — musi się wykonać przed gtag.js. */}
+        <script dangerouslySetInnerHTML={{ __html: CONSENT_DEFAULT_SCRIPT }} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

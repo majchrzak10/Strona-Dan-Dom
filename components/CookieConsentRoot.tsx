@@ -4,12 +4,10 @@ import Link from "next/link";
 import Script from "next/script";
 import { useCallback, useEffect, useLayoutEffect, useState } from "react";
 import GaRouteTracker from "@/components/analytics/GaRouteTracker";
-import { ensureGa4, trackEvent } from "@/lib/client/analytics";
+import { configureGoogleTag, denyConsent, grantConsent, trackEvent } from "@/lib/client/analytics";
+import { CONSENT_STORAGE_KEY as STORAGE_KEY, CONSENT_STORAGE_VERSION as STORAGE_VERSION } from "@/lib/consentMode";
 
-const STORAGE_KEY = "dan-dom-cookie-consent";
-const STORAGE_VERSION = 1;
-
-/** Publiczny identyfikator Google Ads (konwersje) — ładowany wyłącznie po zgodzie użytkownika. */
+/** Publiczny identyfikator Google Ads (konwersje). Zgoda: Consent Mode v2, patrz `lib/consentMode.ts`. */
 const GOOGLE_ADS_MEASUREMENT_ID = "AW-18073325436";
 
 type ConsentState = "loading" | "pending" | "analytics" | "essential";
@@ -34,7 +32,10 @@ function writeStored(analytics: boolean) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 }
 
-/** GA4 + tag Google Ads ładowane dopiero po zgodzie (RODO / ePrivacy). */
+/**
+ * GA4 + tag Google Ads w Consent Mode v2 (tryb zaawansowany): tagi ładują się zawsze,
+ * domyślnie bez zgody (bez cookies). Baner tylko aktualizuje zgodę.
+ */
 export default function CookieConsentRoot({ gaId }: { gaId?: string }) {
   const [consent, setConsent] = useState<ConsentState>("loading");
 
@@ -51,23 +52,24 @@ export default function CookieConsentRoot({ gaId }: { gaId?: string }) {
 
   const acceptAnalytics = useCallback(() => {
     writeStored(true);
-    if (gaId) ensureGa4(gaId);
+    grantConsent();
     setConsent("analytics");
     trackEvent("cookie_consent_update", { analytics_storage: "granted" });
-  }, [gaId]);
+  }, []);
 
   const essentialOnly = useCallback(() => {
     writeStored(false);
+    denyConsent();
     setConsent("essential");
   }, []);
 
   useLayoutEffect(() => {
-    if (consent !== "analytics" || !gaId) return;
-    ensureGa4(gaId);
-  }, [consent, gaId]);
+    if (gaId) configureGoogleTag(gaId);
+    configureGoogleTag(GOOGLE_ADS_MEASUREMENT_ID);
+  }, [gaId]);
 
+  /** Kliknięcia tel:/mailto: — liczone zawsze; bez zgody Google dostaje sygnał bez cookies. */
   useEffect(() => {
-    if (consent !== "analytics") return;
 
     const onClick = (evt: MouseEvent) => {
       const target = evt.target;
@@ -93,7 +95,7 @@ export default function CookieConsentRoot({ gaId }: { gaId?: string }) {
 
     document.addEventListener("click", onClick);
     return () => document.removeEventListener("click", onClick);
-  }, [consent]);
+  }, []);
 
   if (!needsConsentBanner) {
     return null;
@@ -105,31 +107,11 @@ export default function CookieConsentRoot({ gaId }: { gaId?: string }) {
 
   return (
     <>
-      {consent === "analytics" ? (
-        <>
-          {gaId ? (
-            <>
-              <Script
-                src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-                strategy="afterInteractive"
-              />
-              <GaRouteTracker gaId={gaId} />
-            </>
-          ) : null}
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_MEASUREMENT_ID}`}
-            strategy="afterInteractive"
-          />
-          <Script id="google-ads-config" strategy="afterInteractive">
-            {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GOOGLE_ADS_MEASUREMENT_ID}');
-          `}
-          </Script>
-        </>
-      ) : null}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${gaId ?? GOOGLE_ADS_MEASUREMENT_ID}`}
+        strategy="afterInteractive"
+      />
+      {gaId ? <GaRouteTracker gaId={gaId} /> : null}
       {consent === "pending" ? (
         <div
           role="dialog"
@@ -142,9 +124,10 @@ export default function CookieConsentRoot({ gaId }: { gaId?: string }) {
                 Pliki cookies, analityka i pomiar reklam
               </p>
               <p className="mt-1.5">
-                Po akceptacji możemy używać Google Analytics 4 oraz tagu Google Ads (pomiar konwersji),
-                aby lepiej rozumieć ruch w serwisie i skuteczność działań marketingowych. Możesz też
-                ograniczyć się do cookies niezbędnych do działania strony.{" "}
+                Po akceptacji używamy cookies Google Analytics 4 oraz tagu Google Ads (pomiar konwersji),
+                aby lepiej rozumieć ruch w serwisie i skuteczność działań marketingowych. Jeśli wybierzesz
+                tylko niezbędne, nie zapisujemy cookies analitycznych ani reklamowych — Google otrzymuje
+                wtedy wyłącznie anonimowe sygnały bez plików cookies (tryb zgody Google).{" "}
                 <Link
                   href="/polityka-prywatnosci/"
                   className="font-medium text-burgundy underline decoration-burgundy/30 underline-offset-2 hover:decoration-burgundy"
