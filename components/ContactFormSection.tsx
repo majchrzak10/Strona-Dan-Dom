@@ -112,6 +112,7 @@ export default function ContactFormSection() {
       trackEvent("generate_lead", {
         lead_type: "contact_form",
         form_name: "contact_main",
+        form_page: window.location.pathname,
       });
       setIsSuccess(true);
       setForm({ firstName: "", lastName: "", email: "", phone: "", message: "" });
