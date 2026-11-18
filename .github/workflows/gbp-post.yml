@@ -1,0 +1,56 @@
+# =============================================================================
+# GBP Post — nowe oferty z Asari → wpisy na wizytówkach Google (Rogoźno / Wągrowiec)
+#
+# Raz dziennie. Wymaga sekretów (te same co gbp-discover.yml):
+#   GBP_CLIENT_ID, GBP_CLIENT_SECRET, GBP_REFRESH_TOKEN
+# Dopóki Google nie zatwierdzi dostępu do Business Profile API (limit 0/min),
+# skrypt tylko loguje „API jeszcze niedostępne” i kończy się bez błędu.
+#
+# Skrypt: automation/gbp-post/post-new-offers.mjs
+# Stan:   automation/gbp-post/state.json (commitowany automatycznie)
+# =============================================================================
+name: GBP Post — nowe oferty na wizytówkach
+
+on:
+  schedule:
+    - cron: "47 9 * * *"   # codziennie ok. 10:47 czasu polskiego (zima)
+  workflow_dispatch:
+
+concurrency:
+  group: gbp-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: "npm"
+      - run: npm ci
+      - name: Publikacja nowych ofert
+        env:
+          GBP_CLIENT_ID: ${{ secrets.GBP_CLIENT_ID }}
+          GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+          GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+          ASARI_DATA_DIR: ${{ github.workspace }}/asari-export
+          SITE_URL: https://dan-dom.pl
+        run: node automation/gbp-post/post-new-offers.mjs
+      - name: Zapis stanu
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add automation/gbp-post/state.json
+          if git diff --cached --quiet; then
+            echo "Brak zmian stanu."
+          else
+            git commit -m "chore(gbp-post): aktualizacja stanu [skip ci]"
+            git pull --rebase origin main && git push origin HEAD:main || echo "::warning::Nie udało się zapisać stanu GBP Post."
+          fi
