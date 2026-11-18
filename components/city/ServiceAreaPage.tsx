@@ -139,14 +139,13 @@ export default async function ServiceAreaPage({ cfg }: { cfg: ServiceAreaPageCon
           ) : null}
 
           <section className={card}>
-            <p className={eyebrow}>Skąd działamy</p>
-            <h2 className={h2}>Najbliższe biuro: {cfg.office.city}</h2>
+            <p className={eyebrow}>Kontakt</p>
+            <h2 className={h2}>Nieruchomości {cfg.city} — zadzwoń lub przyjdź</h2>
             <div className="mt-3 h-0.5 w-14 rounded bg-brand-primary" />
             <p className="mt-6 max-w-2xl text-base leading-7 text-zinc-600">
-              {cfg.city} obsługujemy z biura w {cfg.office.cityLocative}, {cfg.office.street},{" "}
-              {cfg.office.postalCode} {cfg.office.city} — około {cfg.distanceKm} km. Biuro jest czynne od
-              poniedziałku do piątku w godzinach 9:00–16:00, a na spotkania w {cfg.cityLocative} umawiamy się
-              telefonicznie.
+              Telefon: <a href={`tel:${cfg.office.phoneTel}`} className="font-semibold text-brand-primary hover:underline">{cfg.office.phoneDisplay}</a>.
+              {" "}Biuro Dan-Dom: {cfg.office.street}, {cfg.office.postalCode} {cfg.office.city}, czynne od poniedziałku
+              do piątku w godzinach 9:00–16:00. Na oględziny w {cfg.cityLocative} umawiamy się telefonicznie.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {cfg.nearbyPlaces.map((place) => (
@@ -160,7 +159,7 @@ export default async function ServiceAreaPage({ cfg }: { cfg: ServiceAreaPageCon
             </div>
             <div className="mt-8">
               <Link href={`/${cfg.office.pageRoute}/`} className={secondaryBtn}>
-                Biuro w {cfg.office.cityLocative}
+                Nieruchomości w {cfg.office.cityLocative}
               </Link>
             </div>
           </section>

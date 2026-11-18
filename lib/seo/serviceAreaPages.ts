@@ -24,7 +24,6 @@ export type ServiceAreaPageConfig = {
   city: string;
   cityLocative: string;
   countyLocative: string;
-  distanceKm: number;
   office: ServiceAreaOffice;
   metaTitle: string;
   metaDescription: string;
@@ -61,22 +60,16 @@ export const OBORNIKI: ServiceAreaPageConfig = {
   city: "Oborniki",
   cityLocative: "Obornikach",
   countyLocative: "powiecie obornickim",
-  distanceKm: 20,
   office: OFFICE_ROGOZNO,
   metaTitle: "Nieruchomości Oborniki — sprzedaż domu, mieszkania, działki",
   metaDescription:
-    "Sprzedajesz dom, mieszkanie lub działkę w Obornikach? Biuro Dan-Dom z Rogoźna (ok. 20 km) — od 1996 roku, licencja nr 577, bezpłatna wycena przy zleceniu sprzedaży. Tel. 506 541 111.",
+    "Sprzedajesz dom, mieszkanie lub działkę w Obornikach? Biuro Dan-Dom — od 1996 roku, licencja nr 577, bezpłatna wycena przy zleceniu sprzedaży. Tel. 506 541 111.",
   intro:
-    "Obsługujemy Oborniki i okolice z naszego biura w Rogoźnie, około 20 km dalej. Przyjeżdżamy na oględziny, robimy zdjęcia i prezentujemy nieruchomość kupującym na miejscu — nie musisz jeździć do nas.",
+    "Sprzedajesz dom, mieszkanie lub działkę w Obornikach albo okolicy? Przyjeżdżamy na oględziny, robimy zdjęcia i prezentujemy nieruchomość kupującym na miejscu.",
   primaryKeywords: ["oborniki"],
   nearbyKeywords: ["oborniki", "ryczywół", "rogoźno", "parkowo", "budziszewko", "garbatka", "nienawiszcz", "tarnowo", "boguniewo", "studzieniec"],
   nearbyPlaces: ["Oborniki", "Ryczywół", "Rogoźno", "Parkowo", "Budziszewko", "Murowana Goślina"],
   faq: [
-    {
-      question: "Czy Dan-Dom ma biuro w Obornikach?",
-      answer:
-        "Nie, Oborniki obsługujemy z biura w Rogoźnie przy ul. Wielkiej Poznańskiej 29 (ok. 20 km). Na oględziny, sesję zdjęciową i prezentacje dla kupujących przyjeżdżamy do Ciebie. Kontakt: 506 541 111.",
-    },
     {
       question: "Ile kosztuje wycena nieruchomości w Obornikach?",
       answer:
@@ -101,22 +94,16 @@ export const SKOKI: ServiceAreaPageConfig = {
   city: "Skoki",
   cityLocative: "Skokach",
   countyLocative: "gminie Skoki",
-  distanceKm: 20,
   office: OFFICE_WAGROWIEC,
   metaTitle: "Nieruchomości Skoki — sprzedaż i wynajem domu, mieszkania, działki",
   metaDescription:
-    "Sprzedajesz lub wynajmujesz nieruchomość w Skokach? Biuro Dan-Dom z Wągrowca (ok. 20 km) — od 1996 roku, licencja nr 577, bezpłatna wycena przy zleceniu sprzedaży. Tel. 501 769 166.",
+    "Sprzedajesz lub wynajmujesz nieruchomość w Skokach? Biuro Dan-Dom — od 1996 roku, licencja nr 577, bezpłatna wycena przy zleceniu sprzedaży. Tel. 501 769 166.",
   intro:
-    "Skoki i okoliczne wsie obsługujemy z naszego biura w Wągrowcu, około 20 km dalej. Przyjeżdżamy na oględziny, robimy zdjęcia i prezentujemy nieruchomość kupującym lub najemcom na miejscu.",
+    "Sprzedajesz lub wynajmujesz nieruchomość w Skokach albo okolicznych wsiach? Przyjeżdżamy na oględziny, robimy zdjęcia i prezentujemy nieruchomość kupującym lub najemcom na miejscu.",
   primaryKeywords: ["skoki"],
   nearbyKeywords: ["skoki", "wągrowiec", "kobylec", "ochodza", "łaziska", "runowo"],
   nearbyPlaces: ["Skoki", "Rejowiec", "Potrzanowo", "Pawłowo Skockie", "Lechlin", "Wągrowiec"],
   faq: [
-    {
-      question: "Czy Dan-Dom ma biuro w Skokach?",
-      answer:
-        "Nie, Skoki obsługujemy z biura w Wągrowcu przy ul. Kościuszki 28 (ok. 20 km). Na oględziny, zdjęcia i prezentacje przyjeżdżamy na miejsce. Kontakt: 501 769 166.",
-    },
     {
       question: "Czy pośredniczycie też w wynajmie mieszkań w Skokach?",
       answer:
