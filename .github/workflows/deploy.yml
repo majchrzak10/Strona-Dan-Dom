@@ -268,3 +268,20 @@ jobs:
           port: ${{ vars.FTP_PORT != '' && fromJSON(vars.FTP_PORT) || 21 }}
           timeout: 120000
           security: loose
+
+      - name: IndexNow — powiadomienie Bing o nowych/usuniętych stronach
+        if: ${{ success() }}
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          node scripts/indexnow.mjs
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add automation/indexnow/state.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "IndexNow: brak zmian stanu."
+          else
+            git commit -m "chore(indexnow): aktualizacja stanu [skip ci]"
+            git push origin HEAD || echo "::warning::Nie udało się zapisać stanu IndexNow (spróbuje przy kolejnym deployu)."
+          fi

@@ -156,14 +156,24 @@ export default async function NieruchomosciWagrowiecPage() {
             </p>
 
             <div className="mt-6 flex flex-wrap gap-2">
-              {areas.map((area) => (
-                <span
-                  key={area}
-                  className="rounded-full border border-zinc-200 px-4 py-1.5 text-sm font-medium text-zinc-700"
-                >
-                  {area}
-                </span>
-              ))}
+              {areas.map((area) =>
+                area === "Skoki" ? (
+                  <Link
+                    key={area}
+                    href="/nieruchomosci-skoki/"
+                    className="rounded-full border border-brand-primary/40 px-4 py-1.5 text-sm font-medium text-brand-primary hover:bg-brand-primary/5"
+                  >
+                    {area}
+                  </Link>
+                ) : (
+                  <span
+                    key={area}
+                    className="rounded-full border border-zinc-200 px-4 py-1.5 text-sm font-medium text-zinc-700"
+                  >
+                    {area}
+                  </span>
+                ),
+              )}
               <span className="rounded-full border border-zinc-200 px-4 py-1.5 text-sm font-medium text-zinc-500">
                 i okolice
               </span>

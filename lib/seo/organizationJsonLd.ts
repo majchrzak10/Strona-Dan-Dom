@@ -7,6 +7,7 @@ export const organizationJsonLd = {
   "@type": "RealEstateAgent",
   "@id": `${SITE_URL}/#organization`,
   name: "Dan-Dom Nieruchomości",
+  legalName: "Dan-Dom Biuro Obrotu Nieruchomościami Danuta Majchrzak",
   url: canonicalUrl(""),
   telephone: "+48501769166",
   email: "biuro@dan-dom.pl",
@@ -19,6 +20,8 @@ export const organizationJsonLd = {
   areaServed: [
     { "@type": "City", name: "Wągrowiec" },
     { "@type": "City", name: "Rogoźno" },
+    { "@type": "City", name: "Oborniki" },
+    { "@type": "City", name: "Skoki" },
   ],
   address: {
     "@type": "PostalAddress",
@@ -34,8 +37,9 @@ export const organizationJsonLd = {
     longitude: 17.2010919,
   },
   sameAs: [
-    "https://share.google/jGEGIgNzbrSzlVAR1",
-    "https://share.google/iEoxCilgWTTCoq5bl",
+    "https://maps.google.com/?cid=4307722389435830076",
+    "https://maps.google.com/?cid=16642116072601270385",
+    "https://www.facebook.com/biurodandom/",
   ],
   location: [
     {
@@ -54,7 +58,8 @@ export const organizationJsonLd = {
         latitude: 52.8123328,
         longitude: 17.2010919,
       },
-      hasMap: "https://share.google/jGEGIgNzbrSzlVAR1",
+      telephone: "+48501769166",
+      hasMap: "https://maps.google.com/?cid=4307722389435830076",
     },
     {
       "@type": "Place",
@@ -72,7 +77,8 @@ export const organizationJsonLd = {
         latitude: 52.7492756,
         longitude: 17.0038393,
       },
-      hasMap: "https://share.google/iEoxCilgWTTCoq5bl",
+      telephone: "+48506541111",
+      hasMap: "https://maps.google.com/?cid=16642116072601270385",
     },
   ],
   aggregateRating: {
