@@ -37,6 +37,8 @@ const MIN_DAYS_BETWEEN_POSTS = 3;
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes("--dry-run");
 const PREVIEW_N = args.includes("--preview") ? Number(args[args.indexOf("--preview") + 1] || 3) : 0;
+/** --force <sygnatura> albo env FORCE_SIG — publikuje od razu jedną wskazaną ofertę (test / ręcznie). */
+const FORCE_SIG = (args.includes("--force") ? args[args.indexOf("--force") + 1] : process.env.FORCE_SIG || "").trim();
 
 /** Identyfikatory wizytówek (Business Profile ID = location ID). */
 const LOCATIONS = {
@@ -263,6 +265,25 @@ async function main() {
   }
 
   const state = fs.existsSync(STATE_FILE) ? JSON.parse(fs.readFileSync(STATE_FILE, "utf8")) : null;
+
+  if (FORCE_SIG) {
+    const hit = current.find(([s]) => s === FORCE_SIG);
+    if (!hit) throw new Error(`Nie ma aktualnej oferty o sygnaturze ${FORCE_SIG}`);
+    const p = buildPost(...hit);
+    printPost(p);
+    if (DRY_RUN) return;
+    const token = await accessToken();
+    const account = await findAccount(token);
+    const res = await publish(token, account, p);
+    const st = state || { initializedAt: new Date().toISOString(), seen: [], posted: {} };
+    st.posted = st.posted || {};
+    st.posted[p.sig] = { location: p.location, post: res.name || null, at: new Date().toISOString(), forced: true };
+    st.seen = [...new Set([...(st.seen || []), p.sig])].sort();
+    fs.writeFileSync(STATE_FILE, JSON.stringify(st, null, 2) + "\n");
+    log(`opublikowano ręcznie ${p.sig} na wizytówce ${LOCATIONS[p.location].label}: ${res.searchUrl || res.name || "ok"}`);
+    return;
+  }
+
   if (!state) {
     const init = { initializedAt: new Date().toISOString(), seen: current.map(([s]) => s).sort(), posted: {} };
     if (!DRY_RUN) fs.writeFileSync(STATE_FILE, JSON.stringify(init, null, 2) + "\n");

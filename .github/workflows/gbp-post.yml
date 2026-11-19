@@ -15,6 +15,11 @@ on:
   schedule:
     - cron: "47 9 * * *"   # codziennie ok. 10:47 czasu polskiego (zima)
   workflow_dispatch:
+    inputs:
+      force_sig:
+        description: "Opublikuj od razu tę ofertę (sygnatura, np. 467/6093/OMS) — puste = normalny tryb"
+        required: false
+        default: ""
 
 concurrency:
   group: gbp-post
@@ -42,6 +47,7 @@ jobs:
           GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
           ASARI_DATA_DIR: ${{ github.workspace }}/asari-export
           SITE_URL: https://dan-dom.pl
+          FORCE_SIG: ${{ inputs.force_sig }}
         run: node automation/gbp-post/post-new-offers.mjs
       - name: Zapis stanu
         run: |
