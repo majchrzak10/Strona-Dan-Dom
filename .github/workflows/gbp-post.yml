@@ -20,6 +20,10 @@ on:
         description: "Opublikuj od razu tę ofertę (sygnatura, np. 467/6093/OMS) — puste = normalny tryb"
         required: false
         default: ""
+      delete_sig:
+        description: "Usuń wcześniej opublikowany wpis tej oferty (sygnatura) — puste = nic"
+        required: false
+        default: ""
 
 concurrency:
   group: gbp-post
@@ -48,6 +52,7 @@ jobs:
           ASARI_DATA_DIR: ${{ github.workspace }}/asari-export
           SITE_URL: https://dan-dom.pl
           FORCE_SIG: ${{ inputs.force_sig }}
+          DELETE_SIG: ${{ inputs.delete_sig }}
         run: node automation/gbp-post/post-new-offers.mjs
       - name: Zapis stanu
         run: |

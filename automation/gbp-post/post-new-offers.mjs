@@ -39,6 +39,8 @@ const DRY_RUN = args.includes("--dry-run");
 const PREVIEW_N = args.includes("--preview") ? Number(args[args.indexOf("--preview") + 1] || 3) : 0;
 /** --force <sygnatura> albo env FORCE_SIG — publikuje od razu jedną wskazaną ofertę (test / ręcznie). */
 const FORCE_SIG = (args.includes("--force") ? args[args.indexOf("--force") + 1] : process.env.FORCE_SIG || "").trim();
+/** env DELETE_SIG — usuwa wcześniej opublikowany wpis tej oferty (np. zły obrazek). */
+const DELETE_SIG = (process.env.DELETE_SIG || "").trim();
 
 /** Identyfikatory wizytówek (Business Profile ID = location ID). */
 const LOCATIONS = {
@@ -109,13 +111,17 @@ const titleCase = (s) =>
     .toLowerCase()
     .replace(/(^|[\s-])(\p{L})/gu, (_, a, b) => a + b.toUpperCase());
 
+/** Zdjęcie do wpisu: drugie z kolejności (pierwsze bywa z banerem rezerwacji), awaryjnie pierwsze. */
 function mainPhoto(offer) {
   const pics = arr(offer?.pictures?.picture)
     .map((p) => ({ name: String(p?.unique ?? "").trim(), status: String(p?.status ?? ""), w: Number(p?.weight ?? 999) }))
     .filter((p) => p.name);
   if (!pics.length) return null;
-  const main = pics.find((p) => p.status === "1") || pics.sort((a, b) => a.w - b.w)[0];
-  return main.name;
+  const sorted = [...pics].sort((a, b) => a.w - b.w);
+  const main = pics.find((p) => p.status === "1") || sorted[0];
+  const ordered = [main, ...sorted.filter((p) => p !== main)];
+  // Bierzemy DRUGIE zdjęcie: na pierwszym biuro czasem nakłada baner „REZERWACJA”.
+  return (ordered[1] || ordered[0]).name;
 }
 
 /** Krótki, czysty opis: bez HTML, telefonów, maili, linków i formułek o płatnym pośrednictwie. */
@@ -265,6 +271,19 @@ async function main() {
   }
 
   const state = fs.existsSync(STATE_FILE) ? JSON.parse(fs.readFileSync(STATE_FILE, "utf8")) : null;
+
+  if (DELETE_SIG && !DRY_RUN) {
+    const entry = state?.posted?.[DELETE_SIG];
+    if (!entry?.post) {
+      log(`brak opublikowanego wpisu dla ${DELETE_SIG} — nic do usunięcia.`);
+    } else {
+      const token = await accessToken();
+      await api("DELETE", `https://mybusiness.googleapis.com/v4/${entry.post}`, token);
+      delete state.posted[DELETE_SIG];
+      fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
+      log(`usunięto wpis oferty ${DELETE_SIG}.`);
+    }
+  }
 
   if (FORCE_SIG) {
     const hit = current.find(([s]) => s === FORCE_SIG);
