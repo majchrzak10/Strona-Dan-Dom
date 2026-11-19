@@ -5,7 +5,7 @@
  *  1. Scala paczki XML z asari-export/ (ADD/UPDATE/DELETE, kolejność wg nazwy pliku = czas).
  *  2. Bierze aktualne oferty, których nie ma jeszcze w state.json.
  *  3. Przypisuje wizytówkę po powiecie (param. 46): obornicki itd. → Rogoźno, wągrowiecki itd. → Wągrowiec.
- *     Oferty spoza tych powiatów (np. Poznań) są pomijane.
+ *     Oferty spoza tych powiatów (np. Poznań) idą na wizytówkę Wągrowca — każda oferta tylko na jedną wizytówkę.
  *  4. Sprawdza, że strona oferty i zdjęcie JPG są już na dan-dom.pl (po deployu).
  *  5. Publikuje wpis „Co nowego” ze zdjęciem i przyciskiem „Więcej informacji”.
  *
@@ -41,7 +41,7 @@ const LOCATIONS = {
   wagrowiec: { label: "Wągrowiec", locationId: "17818313479284027844" },
 };
 
-/** Powiat (param. 46, wielkie litery) → wizytówka. Inne powiaty są pomijane. */
+/** Powiat (param. 46, wielkie litery) → wizytówka. Pozostałe powiaty (np. Poznań) → DEFAULT_LOCATION. */
 const POWIAT_TO_LOCATION = {
   OBORNICKI: "rogozno",
   CHODZIESKI: "rogozno",
@@ -50,6 +50,9 @@ const POWIAT_TO_LOCATION = {
   NAKIELSKI: "wagrowiec",
   GNIEŹNIEŃSKI: "wagrowiec",
 };
+
+/** Oferty spoza powiatów powyżej (Poznań, poznański, inne) trafiają na Wągrowiec. */
+const DEFAULT_LOCATION = "wagrowiec";
 
 const log = (m) => console.log(`[gbp-post] ${m}`);
 
@@ -163,7 +166,7 @@ function buildPost(sig, { pm, offer }) {
   const photoJpg = photo ? `${SITE_URL}/zdjecia/${encodeURIComponent(photo)}` : null;
   return {
     sig,
-    location: POWIAT_TO_LOCATION[(pm.get("46") || "").toUpperCase()] || null,
+    location: POWIAT_TO_LOCATION[(pm.get("46") || "").toUpperCase()] || DEFAULT_LOCATION,
     powiat: pm.get("46") || "?",
     url: `${SITE_URL}/oferty/${slug}/`,
     photo: photoJpg,
