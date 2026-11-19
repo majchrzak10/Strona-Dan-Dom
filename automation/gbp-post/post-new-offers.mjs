@@ -8,6 +8,7 @@
  *     Oferty spoza tych powiatów (np. Poznań) idą na wizytówkę Wągrowca — każda oferta tylko na jedną wizytówkę.
  *  4. Sprawdza, że strona oferty i zdjęcie JPG są już na dan-dom.pl (po deployu).
  *  5. Publikuje wpis „Co nowego” ze zdjęciem i przyciskiem „Więcej informacji”.
+ *     Najwyżej 1 wpis, nie częściej niż co 3 dni — reszta czeka w kolejce (najstarsze pierwsze).
  *
  * Pierwsze uruchomienie (brak state.json) tylko zapisuje obecne oferty jako „widziane”
  * i niczego nie publikuje — żeby nie wysłać naraz kilkudziesięciu wpisów.
@@ -29,7 +30,9 @@ const ROOT = path.resolve(__dirname, "../..");
 const STATE_FILE = path.join(__dirname, "state.json");
 const DATA_DIR = process.env.ASARI_DATA_DIR || path.join(ROOT, "asari-export");
 const SITE_URL = (process.env.SITE_URL || "https://dan-dom.pl").replace(/\/$/, "");
-const MAX_POSTS_PER_RUN = 3;
+const MAX_POSTS_PER_RUN = 1;
+/** Minimalny odstęp między wpisami (dni). Nowe oferty czekają w kolejce i wychodzą po jednej. */
+const MIN_DAYS_BETWEEN_POSTS = 3;
 
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes("--dry-run");
@@ -168,6 +171,7 @@ function buildPost(sig, { pm, offer }) {
     sig,
     location: POWIAT_TO_LOCATION[(pm.get("46") || "").toUpperCase()] || DEFAULT_LOCATION,
     powiat: pm.get("46") || "?",
+    created: pm.get("5") || "",
     url: `${SITE_URL}/oferty/${slug}/`,
     photo: photoJpg,
     summary,
@@ -275,7 +279,22 @@ async function main() {
     log(`pomijam ${p.sig} — powiat ${p.powiat} poza obszarem wizytówek.`);
     seen.add(p.sig);
   }
-  const queue = fresh.filter((p) => p.location).slice(0, MAX_POSTS_PER_RUN);
+  const lastPostAt = Object.values(state.posted || {})
+    .map((x) => Date.parse(x.at))
+    .filter(Number.isFinite)
+    .sort((a, b) => b - a)[0];
+  const daysSince = lastPostAt ? (Date.now() - lastPostAt) / 86_400_000 : Infinity;
+  if (!DRY_RUN && daysSince < MIN_DAYS_BETWEEN_POSTS) {
+    log(`ostatni wpis ${daysSince.toFixed(1)} dnia temu — czekam (co najmniej ${MIN_DAYS_BETWEEN_POSTS} dni). W kolejce: ${fresh.filter((p) => p.location).length}.`);
+    state.seen = [...seen].sort();
+    fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
+    return;
+  }
+
+  const queue = fresh
+    .filter((p) => p.location)
+    .sort((a, b) => (a.created || "").localeCompare(b.created || ""))
+    .slice(0, MAX_POSTS_PER_RUN);
 
   let token = null;
   let account = null;
