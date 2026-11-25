@@ -52,6 +52,7 @@
     "AbFvOqlx2UBD4Tp3D3vm9Yqijb3_aC3mowSrJulrW4aQBpYGa40YXmv21SKLPzKdv6C2dQ0X87pcYA",
     "AbFvOqlyp70bJS6BQ4CbKHroKPkR3XE3KJNnlrJdb1SBxkiH5hlOWX0ff0PAR6pahvZ5rKRfUT4zwg",
     "AbFvOqlzQxDNazflAo47MfD2XV25cxYlm-6voYPA88M9z9CzOjOMsmkTewjhIcOSARNqP6AjUrX6rw",
+    "AbFvOqm7lU0ijI0sPKbQwJ4m3ub_NiOUW0gcokblxPwxexF0qLOH60hYWz9IlG4makHwmI2KIP-Gyg",
     "AbFvOqmA3miWnBCz9dA6rpWVeg0WetXQGBehXxL8g4typM5ymO57Os8mb1Le8nhN0oToXNW_UASR",
     "AbFvOqmC3TDHX3KybwroVhfdZLk4bn9NfCeXbXCw1AXKgxPuvCoBeCZRb_e8mKda9yPsuMmQfWb4dw",
     "AbFvOqmDB0JnqYCMCc-oAw6dV9ycJgqOBstWADEN0qWEhv3xazW08YTiIYRXoKX5ZCxJ_1J9PXcQ2A",
@@ -119,5 +120,11 @@
     "AbFvOqnyMiPEjM7UgR-0Np8a_U9wTeYRV7ND79Inbexfs8J_kjt49dE3Q4IIJS-3g7xB27QGgvGo",
     "AbFvOqnyScqAS5yx1OBn-bQRPnfXx8dAlurHvVJAofI_AqumeCCB4SeQOcieVDORx7n9wJq6m3io"
   ],
-  "replied": {}
+  "replied": {
+    "AbFvOqm7lU0ijI0sPKbQwJ4m3ub_NiOUW0gcokblxPwxexF0qLOH60hYWz9IlG4makHwmI2KIP-Gyg": {
+      "location": "wagrowiec",
+      "stars": 5,
+      "at": "2026-11-25T00:35:46.516Z"
+    }
+  }
 }
