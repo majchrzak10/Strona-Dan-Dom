@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PACKAGE>
+  <DELETE>
+    <offers>
+      <signature>303/6093/ODS</signature>
+      <signature>305/6093/ODS</signature>
+      <signature>427/6093/OMS</signature>
+      <signature>435/6093/OMS</signature>
+    </offers>
+    <pictures />
+  </DELETE>
+</PACKAGE>
