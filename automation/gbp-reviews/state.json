@@ -68,12 +68,14 @@
     "AbFvOqmWWXBKyuAya_Bk-FlcOPks6wWSuFixTmR80L24lMYmK0ZwGjBaNrz83rhWhvrDRvbTuEapEQ",
     "AbFvOqmY1NAympz2_I1H_oUuggy_we2pYqck4QajVG8c94_MenhXImQK0po4CDkDdx2QNI5GRqYS",
     "AbFvOqmZ3KYACpm9AiX7WiyIghZZxXxZnUvjjDBin5DjtlUm5hzNSNRRZIl7WE4HbP79bbWLVoGxNg",
+    "AbFvOqmZHFvc-CnItVwj_9IRusdXCTSHMCtnbwgoOiQbNjIdbCd7m5VmddQpBpK1ZqIwyOdXdrvy",
     "AbFvOqm_Tp1OmWDCOpuZb8zHsOySQxw4snXlBD66AOfwM9QilGMwYDWQcMbz-y2dcxSaFNLpxSoJAQ",
     "AbFvOqmadT42HyVwcrYKaTkqQWDKPWbdrfy9rwN4bO517RfNnHWFyMfNkhYrHWmQKyBMlWMpqk3Fww",
     "AbFvOqmcpmCnlTq4WEXTCHJObzV-ykGEKnvKHAXFKbSu_ZU5ouyCp3IBQljBKnP4ZpLrE93X4Ut19Q",
     "AbFvOqmeOTwzv8CrJlDr2YHptEluiZjQfy9BNGHYVrnZRCZT7rYrfV4ATlkZeHu_NNPnhGorFqbWUw",
     "AbFvOqmer7c6Kq8rOj3EQ1r5wGoSQYFiWDnYrnwu65cJz-xB04vbulL1NYJRkwdkrwvUl4dmwLsA",
     "AbFvOqmgQQg7qtseN46BJiSol-D2_D-B9MS1QYlE1JIdcwJFH-xrt6Ka3J_eILGGj380xqr8WIt6_w",
+    "AbFvOqmhRmHsalQMn0_FcZfwpgZ9JyzZcId7NOK2u6cgmqWl4M2Tc9ieukMpguPEFdcS4motXgoyGw",
     "AbFvOqmi4H0gapg1pm6zmsh4sB1NPk2Ihl3JJ6GLMEeZDVfSE-zllermi6EwxWV3yrSdhwms8F1Jcw",
     "AbFvOqmjHwAQ2Id0B6KFBhIl4xF_ki7AM2PKIXHaGiwR2QNu3JykKbNPDSHg1_Q2Yye8VMI3RqosAQ",
     "AbFvOqmm5bak93sQsbb1KVI3ISl7jcrOZ3nUj2y2fOIEy-dYgQCoKbREqIGxphLqLFCbAJLL_oW0GA",
@@ -132,6 +134,16 @@
       "location": "rogozno",
       "stars": 5,
       "at": "2026-11-26T00:14:30.573Z"
+    },
+    "AbFvOqmhRmHsalQMn0_FcZfwpgZ9JyzZcId7NOK2u6cgmqWl4M2Tc9ieukMpguPEFdcS4motXgoyGw": {
+      "location": "rogozno",
+      "stars": 5,
+      "at": "2026-11-27T00:31:56.448Z"
+    },
+    "AbFvOqmZHFvc-CnItVwj_9IRusdXCTSHMCtnbwgoOiQbNjIdbCd7m5VmddQpBpK1ZqIwyOdXdrvy": {
+      "location": "wagrowiec",
+      "stars": 5,
+      "at": "2026-11-27T00:31:58.143Z"
     }
   }
 }
