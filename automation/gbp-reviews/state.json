@@ -23,6 +23,7 @@
     "AbFvOqkedhRN3SWKEmtIvfkhoJB4SHOwep_rA2h_eKpm9w6ILtqX2athQs0CpN6e5-Nll3vhdiMdbA",
     "AbFvOqkgOd0h8cZ5JBFUxZW2nAkJr2doAB1KLoJ_uv7SIfN9xGCnYdvgBldoz-2jnzVke-epqjLFYQ",
     "AbFvOqkzrnPF0o9LeYLZzzuUzGzroZDCzRFnqVUSMOUVYHOY1QUeCXci9D-waRLP4DSbkcCAfQfhxg",
+    "AbFvOql-AShPQt3c21GlaG9ZQFa0nl68Z__venBWTc1grtBhjCTpn0iVwQ3U4RrgU-FU-8rpH85x",
     "AbFvOql0AH0WybxOozOEU2RS67BdIjpbWcdtyKrc6yw5h2Qc6o4rKsP2ZBq13_UK1ktEtM46KI0Ldw",
     "AbFvOql4V7g3mgyFEQwS_RN_hE5P2Kc8VfHWpPrhxIOcX7jx-q9XrNkJZxolBQLt769pEX7YIbVa",
     "AbFvOql5E25VTC_BTdjZV3gmg2QeGeTk82i36d5_w-gTGaezJijG-5N4Mc8TVDhlcPt7JbIgUE07",
@@ -37,6 +38,7 @@
     "AbFvOqlHKeJWw1PYDai-01j4JaZquEhRq0pak4UfRpeFN4R9g9isHtYuN62uRMsntTQnrDSQyDrAqQ",
     "AbFvOqlIPwcWVjBImQMqvdsUcSQfMhi7ob1PAcY-ffmdho9px_hcCNHe-bq2_1xMkUx3vqsVccwGBw",
     "AbFvOqlK86RrRiico54-5r2_KYEAPODOcMp6rxinlb-8gXAwmy7Qd_3wS2iqMLLMSf3_ECzoqyo_",
+    "AbFvOqlMCORIvuEGzh2afhnj_tFuVQphUr0uRTCMkVR5MKWHwqnEpGsBpxMqEbGxl2Zvp0A8IWAW",
     "AbFvOqlQrVQe1ykYB576M6kYmNVV5W_Nrc67M88BHWSzcFzHVb5t7R8-5dFX1JhFbYzrxSAA6H6U0A",
     "AbFvOqlS15pS5V_vfqcjiHeQZr9ymUEog_i4MWr8R7aWp-_1SwceplD66eh5ah3Yiw0q2Vs2w_t4",
     "AbFvOqlTSnKL3YFRErWqLWKvRd2RuUrP2DL4s1yK9-IIyA0EXjcKlG2iSQhuktfD7GYRVUWB73IRQA",
@@ -144,6 +146,16 @@
       "location": "wagrowiec",
       "stars": 5,
       "at": "2026-11-27T00:31:58.143Z"
+    },
+    "AbFvOql-AShPQt3c21GlaG9ZQFa0nl68Z__venBWTc1grtBhjCTpn0iVwQ3U4RrgU-FU-8rpH85x": {
+      "location": "wagrowiec",
+      "stars": 5,
+      "at": "2026-11-28T00:00:06.384Z"
+    },
+    "AbFvOqlMCORIvuEGzh2afhnj_tFuVQphUr0uRTCMkVR5MKWHwqnEpGsBpxMqEbGxl2Zvp0A8IWAW": {
+      "location": "wagrowiec",
+      "stars": 5,
+      "at": "2026-11-28T00:00:07.084Z"
     }
   }
 }
